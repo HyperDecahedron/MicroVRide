@@ -1,0 +1,10 @@
+Haptic-Feedback                 6
+Environmental-Modification      5
+Predictive-Information          4
+MIXED                           4
+Electrical-Stimulation          3
+Motion-Synchronization          2
+Adaptation-Training             2
+Adaptive-Systems                2
+Pharmacological-Intervention    2
+Physical-Therapy                1

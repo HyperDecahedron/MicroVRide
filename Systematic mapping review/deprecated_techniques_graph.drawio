@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="28.2.3">
+  <diagram name="Page-1" id="fcSGA0OB6uEHO4nW_FfN">
+    <mxGraphModel dx="1378" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WD4ZWUOzozMB2fDhTocs-24" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#88CF88;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="467" y="440" width="360" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="WD4ZWUOzozMB2fDhTocs-22" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFE47A;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="440" width="360" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="WD4ZWUOzozMB2fDhTocs-19" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#F89279;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="467" y="50" width="360" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="WD4ZWUOzozMB2fDhTocs-17" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ADC0FC;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="50" width="360" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="WD4ZWUOzozMB2fDhTocs-1" value="&lt;div&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;5&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;[FOV-&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Restriction]&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="140" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="WD4ZWUOzozMB2fDhTocs-4" value="&lt;div&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;4&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;[Visual-Blurring]&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="140" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="WD4ZWUOzozMB2fDhTocs-5" value="&lt;div&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;7&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;[Visual-&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Reference]&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="270" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="WD4ZWUOzozMB2fDhTocs-6" value="&lt;div&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;2&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;[Motion-Synchronization&lt;/font&gt;&lt;span style=&quot;font-size: 15px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;]&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="140" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="WD4ZWUOzozMB2fDhTocs-7" value="&lt;div&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;6&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;[Haptic-&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Feedback&lt;/font&gt;&lt;span style=&quot;font-size: 15px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;]&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="140" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="WD4ZWUOzozMB2fDhTocs-8" value="&lt;div&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;2&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;[Adaptive-&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Training&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 15px;&quot;&gt;]&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="582" y="270" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="WD4ZWUOzozMB2fDhTocs-9" value="&lt;div&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;3&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;[Electrical-Stimulation&lt;/font&gt;&lt;span style=&quot;font-size: 15px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;]&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="530" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="WD4ZWUOzozMB2fDhTocs-10" value="&lt;div&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;2&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;[Pharmacological-Intervention&lt;/font&gt;&lt;span style=&quot;font-size: 15px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;]&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="530" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="WD4ZWUOzozMB2fDhTocs-11" value="&lt;div&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;1&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;[Physical-&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Therapy&lt;/font&gt;&lt;span style=&quot;font-size: 15px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;]&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="650" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="WD4ZWUOzozMB2fDhTocs-12" value="&lt;div&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;5&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;[Environmental-Modification&lt;/font&gt;&lt;span style=&quot;font-size: 15px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;]&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="502" y="530" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="WD4ZWUOzozMB2fDhTocs-13" value="&lt;div&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;4&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;[Predictive-Information&lt;/font&gt;&lt;span style=&quot;font-size: 15px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;]&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="582" y="650" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="WD4ZWUOzozMB2fDhTocs-14" value="&lt;div&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;2&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;[Adaptive-Systems&lt;/font&gt;&lt;span style=&quot;font-size: 15px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;]&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="672" y="530" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="WD4ZWUOzozMB2fDhTocs-15" value="&lt;div&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;font style=&quot;color: rgb(255, 255, 255);&quot;&gt;4&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;[Mixed&lt;/font&gt;&lt;span style=&quot;font-size: 15px; background-color: transparent;&quot;&gt;]&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="360" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="WD4ZWUOzozMB2fDhTocs-18" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Vision-related techniques&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="155" y="100" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WD4ZWUOzozMB2fDhTocs-20" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;External techniques&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="542" y="100" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WD4ZWUOzozMB2fDhTocs-21" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Medical techniques&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="155" y="490" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WD4ZWUOzozMB2fDhTocs-23" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;External techniques&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="542" y="490" width="210" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
