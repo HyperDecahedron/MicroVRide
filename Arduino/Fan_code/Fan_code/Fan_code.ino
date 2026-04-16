@@ -75,18 +75,12 @@ void loop() {
       Serial.print("Fan speed: ");
       Serial.println(fan_speed);
 
-      // Move servo
+      // Servo angle
       fanServo.write((int)fan_angle);
 
-      // Convert to PWM (0-255) fan_speed 
+      // Speed 
       fan_speed = constrain(fan_speed, 0.0, 1.0);
-
       int pwmValue = fan_speed * 255;
-
-      Serial.print("PWM value: ");
-      Serial.println(pwmValue);
-
-      // Set fan speed
       ledcWrite(fanPin, pwmValue);
     }
   }

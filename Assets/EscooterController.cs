@@ -97,8 +97,33 @@ public class EscooterController : MonoBehaviour
 
     public TMP_Text debugText; // optional
 
+
+    // ADDED
+    [Header("Keyboard Debug")]
+    [Tooltip("Use WASD instead of sensor data.")]
+    public bool useKeyboardDebug = false;
+
+    [Tooltip("Allow S to move backward. If false, S only stops/brakes.")]
+    public bool allowReverseDebug = true;
+
+    [Tooltip("Multiplier for keyboard speed input.")]
+    public float keyboardSpeedMultiplier = 1f;
+
+    [Tooltip("Multiplier for keyboard turn input.")]
+    public float keyboardTurnMultiplier = 1f;
+
     void Start()
     {
+        if (useKeyboardDebug)
+        {
+            controllerEnabled = true;
+            Debug.Log("usign keyboard debug");
+        }
+        else
+        {
+            Debug.Log("keyboard debug disabled");
+        }
+
         dataReceiver = VehicleDataReceiver.Instance;
         if (dataReceiver == null)
         {
@@ -127,31 +152,76 @@ public class EscooterController : MonoBehaviour
 
     private void Update()
     {
-        if (!controllerEnabled || segway == null || dataReceiver == null) return;
+        if (!controllerEnabled || segway == null) return;
+        if (!useKeyboardDebug && dataReceiver == null) return;
 
         // -------- 1) Read raw inputs
-        float rawThrottle = Mathf.Clamp01(dataReceiver.throttle);
+        float rawThrottle = 0f;
+        float rawAxisDeg = 0f;
+        float rawYawDeg = 0f;
+        bool throttleActive = false;
+        float th = 0f;
+        float yawNorm = 0f;
 
-        // Read selected steering axis and apply zero/invert
-        float rawAxisDeg = ReadSteerAxisDeg();
-        float rawYawDeg = (rawAxisDeg - steerZeroDeg) * (invertSteer ? -1f : 1f);
+        if (useKeyboardDebug)
+        {
+            // W/S = forward/back, A/D = left/right
+            float forwardInput = 0f;
+            if (Input.GetKey(KeyCode.W)) forwardInput += 1f;
+            if (Input.GetKey(KeyCode.S)) forwardInput -= 1f;
 
-        // -------- 2) Apply deadzones
-        bool throttleActive = rawThrottle >= throttleDeadzone;
-        float th = throttleActive ? Remap01(rawThrottle, throttleDeadzone, 1f) : 0f;
-        float yawDeg = ApplyDeadzoneSigned(rawYawDeg, yawDeadzoneDeg);
+            float turnInput = 0f;
+            if (Input.GetKey(KeyCode.A)) turnInput -= 1f;
+            if (Input.GetKey(KeyCode.D)) turnInput += 1f;
 
-        // -------- 3) Normalize yaw by sensitivity (bigger sensitivity = less reactive)
-        float yawNorm = Mathf.Clamp(yawDeg / Mathf.Max(1e-3f, yawSensitivityDeg), -1f, 1f);
+            if (!allowReverseDebug)
+                forwardInput = Mathf.Clamp01(forwardInput);
 
-        // -------- 4) Expo curves
-        th = ApplyExpo01(th, throttleExpo);        // 0..1
-        yawNorm = ApplyExpoSigned(yawNorm, yawExpo);    // -1..1
+            rawThrottle = Mathf.Abs(forwardInput);
+            throttleActive = Mathf.Abs(forwardInput) > 0.01f;
+
+            th = Mathf.Abs(forwardInput) * keyboardSpeedMultiplier;
+            th = Mathf.Clamp01(th);
+
+            yawNorm = Mathf.Clamp(turnInput * keyboardTurnMultiplier, -1f, 1f);
+        }
+        else
+        {
+            rawThrottle = Mathf.Clamp01(dataReceiver.throttle);
+
+            // Read selected steering axis and apply zero/invert
+            rawAxisDeg = ReadSteerAxisDeg();
+            rawYawDeg = (rawAxisDeg - steerZeroDeg) * (invertSteer ? -1f : 1f);
+
+            // -------- 2) Apply deadzones
+            throttleActive = rawThrottle >= throttleDeadzone;
+            th = throttleActive ? Remap01(rawThrottle, throttleDeadzone, 1f) : 0f;
+            float yawDeg = ApplyDeadzoneSigned(rawYawDeg, yawDeadzoneDeg);
+
+            // -------- 3) Normalize yaw by sensitivity (bigger sensitivity = less reactive)
+            yawNorm = Mathf.Clamp(yawDeg / Mathf.Max(1e-3f, yawSensitivityDeg), -1f, 1f);
+
+            // -------- 4) Expo curves
+            th = ApplyExpo01(th, throttleExpo);           // 0..1
+            yawNorm = ApplyExpoSigned(yawNorm, yawExpo);  // -1..1
+        }
 
         // -------- 5) Targets (pre-filter)
         //float targetVelocity = th * maxSpeed;
         float targetVelocity;
-        if (useDebugSpeed)
+
+        if (useKeyboardDebug)
+        {
+            float forwardInput = 0f;
+            if (Input.GetKey(KeyCode.W)) forwardInput += 1f;
+            if (Input.GetKey(KeyCode.S)) forwardInput -= 1f;
+
+            if (!allowReverseDebug)
+                forwardInput = Mathf.Clamp01(forwardInput);
+
+            targetVelocity = forwardInput * maxSpeed * keyboardSpeedMultiplier;
+        }
+        else if (useDebugSpeed)
         {
             targetVelocity = Mathf.Clamp(debugSpeed, -maxSpeed, maxSpeed);
         }
@@ -197,15 +267,14 @@ public class EscooterController : MonoBehaviour
 
         // -------- 6) Filters
         // -------- 6) Filters
-        if (useDebugSpeed)
+        if (useKeyboardDebug || useDebugSpeed)
         {
-            // Ignore throttle gating completely when debug override is active
             cmdSpeed = Mathf.Lerp(cmdSpeed, targetVelocity, Time.deltaTime * speedFilter);
             cmdSpeed = MoveTowardsPerSec(cmdSpeed, targetVelocity, speedSlewPerSec, Time.deltaTime);
         }
         else if (!throttleActive && requireThrottleToMove)
         {
-            cmdSpeed = 0f; // command zero
+            cmdSpeed = 0f;
         }
         else
         {
@@ -230,10 +299,10 @@ public class EscooterController : MonoBehaviour
 
         // -------- 7) Output to Segway (legacy blend + anti-creep)
         float outVelocity;
-        if (useDebugSpeed)
+        if (useKeyboardDebug || useDebugSpeed)
         {
-            // Always honor debugSpeed regardless of throttle gating
             outVelocity = Mathf.Lerp(segway.getVelosity(), cmdSpeed, Time.deltaTime * smoothing);
+            //Debug.Log(segway.getVelosity());
         }
         else
         {

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3360223, g: 0.520416, b: 0.5872436, a: 1}
+  m_IndirectSpecularColor: {r: 0.33510154, g: 0.5188993, b: 0.5856541, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -9809,6 +9809,10 @@ MonoBehaviour:
   useDebugSpeed: 0
   debugSpeed: 0
   debugText: {fileID: 0}
+  useKeyboardDebug: 0
+  allowReverseDebug: 1
+  keyboardSpeedMultiplier: 1
+  keyboardTurnMultiplier: 1
 --- !u!114 &99643792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23734,10 +23738,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49645f76a83824b7eb5b8906a20feec8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  footSensorInput: {fileID: 1036262343}
-  segway: {fileID: 1121598092}
-  receiverIP: 172.20.10.5
-  receiverPort: 5678
 --- !u!1001 &229175121
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -103516,8 +103516,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 177601632d77f4f08b357ff3ad291e06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  listenPort: 4210
-  throttleValue: 0
 --- !u!114 &1036262347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -112402,6 +112400,10 @@ MonoBehaviour:
   useDebugSpeed: 0
   debugSpeed: 0
   debugText: {fileID: 0}
+  useKeyboardDebug: 0
+  allowReverseDebug: 1
+  keyboardSpeedMultiplier: 1
+  keyboardTurnMultiplier: 1
 --- !u!114 &1121598095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -112414,12 +112416,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c2269a155f844245b86495f3729feb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  segway: {fileID: 1121598092}
-  vehicleSelectionManager: {fileID: 0}
-  dataReceiver: {fileID: 0}
-  maxSpeed: 8
-  maxTurnAngle: 45
-  smoothing: 6
 --- !u!114 &1121598096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -112432,12 +112428,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85e964b24f4cc44a6b44493efbb863a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  segway: {fileID: 1121598092}
-  vehicleSelectionManager: {fileID: 0}
-  dataReceiver: {fileID: 0}
-  maxSpeed: 8
-  maxTurnAngle: 45
-  smoothing: 7
 --- !u!114 &1121598097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117248,6 +117238,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   statusMessage: {fileID: 143534724}
   vehicleSelectionPanel: {fileID: 1746220895}
+  csSelectionManager: {fileID: 0}
   controlActiveIndicator: {fileID: 61156148}
   segwayButton: {fileID: 518049289}
   escooterButton: {fileID: 1050524480}
@@ -170610,8 +170601,12 @@ MonoBehaviour:
   bumperDistance: 0.5
   recoverDuration: 0.4
   useDebugSpeed: 0
-  debugSpeed: 0
+  debugSpeed: 12
   debugText: {fileID: 0}
+  useKeyboardDebug: 1
+  allowReverseDebug: 0
+  keyboardSpeedMultiplier: 1
+  keyboardTurnMultiplier: 0.2
 --- !u!114 &1732688774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170665,6 +170660,23 @@ MonoBehaviour:
   target: {fileID: 0}
   horizontalRadius: 0.5
   verticalTolerance: 2
+--- !u!114 &1732688784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732688753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68eaf9e80be828840adf11b9ab49b542, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vehicle: {fileID: 1732688753}
+  max_velocity: 3
+  send_interval: 0.2
+  fan_offset: 30
+  angular_velocity_th: 8
 --- !u!1001 &1734074343
 PrefabInstance:
   m_ObjectHideFlags: 0
