@@ -3,13 +3,14 @@
 #include <ESP32Servo.h>
 #include <Arduino.h>
 
+// WIFI and UDP settings
 const char* ssid = "DemonNet";
 const char* password = "1234tongue";
-
 const int UDP_PORT = 5052;
-
 WiFiUDP udp;
+char incomingPacket[255];
 
+// Servo
 const int servoPin = 14; // D14
 Servo fanServo;
 
@@ -18,7 +19,30 @@ const int fanPin = 26;
 const int fanFreq = 25000; // frequency of the PWM signal
 const int fanResolution = 8; // 0-255 PWM range
 
-char incomingPacket[255];
+// States
+int target_angle = 90; 
+int current_angle = 90;
+unsigned long updateIntervalMs = 100; // change the servo angle 1 degree every update_time ms 
+
+unsigned long lastServoUpdate = 0;
+
+void UpdateServoAngle() {
+  unsigned long now = millis();
+
+  if (target_angle != current_angle && (now - lastServoUpdate >= updateIntervalMs)) {
+
+    if (target_angle > current_angle) {
+      current_angle++;
+      fanServo.write(current_angle);
+    }
+    else if (target_angle < current_angle) {
+      current_angle--;
+      fanServo.write(current_angle);
+    }
+
+    lastServoUpdate = now;
+  }
+}
 
 void setup() {
   Serial.begin(115200);
@@ -53,6 +77,8 @@ void setup() {
 
 void loop() {
 
+  UpdateServoAngle();
+
   int packetSize = udp.parsePacket();
   if (packetSize) {
 
@@ -68,19 +94,13 @@ void loop() {
     float fan_speed;
 
     if (sscanf(incomingPacket, "%f,%f", &fan_angle, &fan_speed) == 2) {
-
-      Serial.print("Fan angle: ");
-      Serial.println(fan_angle);
-
-      Serial.print("Fan speed: ");
-      Serial.println(fan_speed);
-
-      // Servo angle
-      fanServo.write((int)fan_angle);
+      
+      // the udp sender states the target angle
+      target_angle = constrain((int)fan_angle, 10, 170); 
 
       // Speed 
       fan_speed = constrain(fan_speed, 0.0, 1.0);
-      int pwmValue = fan_speed * 255;
+      int pwmValue = (int)(fan_speed * 255.0);
       ledcWrite(fanPin, pwmValue);
     }
   }

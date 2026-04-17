@@ -19,7 +19,7 @@ public class FanController : MonoBehaviour
     private float timer;
 
     private UdpClient udpClient;
-    private string ipAddress = "10.253.183.211";
+    private string ipAddress = "10.112.67.211";
     private int port = 5052;
 
     void Start()
