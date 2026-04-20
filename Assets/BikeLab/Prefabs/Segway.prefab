@@ -2152,6 +2152,8 @@ MonoBehaviour:
   jointR: {fileID: 3083336693312920596}
   centerOfMass: {fileID: 3083336692178084548}
   bodyCenterOfMass: {fileID: 3083336692049210909}
+  blackoutObject: {fileID: 0}
+  blackoutDuration: 1
   targetIncline: 0
   forwardAcc: 0
   wheelbase: 0
@@ -2580,7 +2582,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  m_ConnectedAnchor: {x: -0.35, y: 0.25, z: 0}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -3574,7 +3576,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  m_ConnectedAnchor: {x: 0.35, y: 0.25, z: 0}
   m_UseSpring: 0
   m_Spring:
     spring: 0
