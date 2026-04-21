@@ -112,6 +112,8 @@ public class EscooterController : MonoBehaviour
     [Tooltip("Multiplier for keyboard turn input.")]
     public float keyboardTurnMultiplier = 1f;
 
+    bool throttleActive = false;
+
     void Start()
     {
         if (useKeyboardDebug)
@@ -159,7 +161,7 @@ public class EscooterController : MonoBehaviour
         float rawThrottle = 0f;
         float rawAxisDeg = 0f;
         float rawYawDeg = 0f;
-        bool throttleActive = false;
+        
         float th = 0f;
         float yawNorm = 0f;
 
@@ -167,7 +169,15 @@ public class EscooterController : MonoBehaviour
         {
             // W/S = forward/back, A/D = left/right
             float forwardInput = 0f;
-            if (Input.GetKey(KeyCode.W)) forwardInput += 1f;
+            if (Input.GetKey(KeyCode.W))
+            {
+                throttleActive = true;
+                forwardInput += 1f;
+            }
+            else
+            {
+                throttleActive = false;
+            }
             if (Input.GetKey(KeyCode.S)) forwardInput -= 1f;
 
             float turnInput = 0f;

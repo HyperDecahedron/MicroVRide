@@ -94,7 +94,7 @@ public class FanController : MonoBehaviour
         try
         {
             udpClient.Send(data, data.Length, ipAddress, port);
-            Debug.Log($"[FanController] Sent: {message}");
+            //Debug.Log($"[FanController] Sent: {message}");
         }
         catch (System.Exception e)
         {

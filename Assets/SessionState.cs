@@ -9,7 +9,7 @@ public static class SessionState
     public static VehicleType SelectedVehicle { get; set; } = VehicleType.EScooter;
     public static SkateboardStance SelectedSkateboardStance { get; set; } = SkateboardStance.Regular;
 
-    public static string CSTechnique { get; set; } = "af";
+    public static string CSTechnique { get; set; } = "none";
 
     // NEW: one-time spawn pose computed at selection time
     public static bool HasSpawnPose { get; set; } = false;
