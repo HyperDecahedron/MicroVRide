@@ -112,7 +112,7 @@ public class EscooterController : MonoBehaviour
     [Tooltip("Multiplier for keyboard turn input.")]
     public float keyboardTurnMultiplier = 1f;
 
-    bool throttleActive = false;
+    public bool throttleActive = false;
 
     void Start()
     {
