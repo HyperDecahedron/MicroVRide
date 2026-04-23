@@ -4,10 +4,15 @@ using VK.BikeLab.Segway;
 
 public class PhysicalCuesManager : MonoBehaviour
 {
+    // me he quedado cambiando el padre del velocity arrow, porque no se movia bien, tengo que comprobar que ahora este
+    // todo bien despues de haber cambiado el parent del velocity arrow (he añadido una capa más)
+
     private Segway escooter;
     private EscooterController eScooterController;
+    private FanController fanController; 
 
     [Header("Arrow Setup")]
+    [SerializeField] private GameObject velocityArrow;
     [SerializeField] private Transform firstCube; 
     [SerializeField] private GameObject prefabArrowCube;
 
@@ -17,17 +22,24 @@ public class PhysicalCuesManager : MonoBehaviour
 
     [SerializeField] private float maxSpeed = 10f;
 
+    [Header("Rotation Setup")]
+    [SerializeField] private float maxArrowRotation = 45f;   // degrees
+
     private List<Transform> cubes = new List<Transform>();
     private float step;
+
+    // rotation
+    private float currentArrowYaw;
 
     void Start()
     {
         escooter = transform.parent.GetComponent<Segway>();
         eScooterController = transform.parent.GetComponent<EscooterController>();
+        fanController = transform.parent.GetComponent<FanController>();
 
         // Velocity arrow
         step = cubeLength + gap;
-        cubes.Add(firstCube); 
+        cubes.Add(firstCube);
     }
 
     void Update()
@@ -54,7 +66,24 @@ public class PhysicalCuesManager : MonoBehaviour
         Color color = GetSpeedColor(t);
         ApplyColor(color);
         SetOutline(eScooterController.throttleActive);
-        // ------------------------------------------------------------------------------
+
+        // Rotate velocityArrow according to vehicle rotation ---------------------------
+        float targetYaw = 0f;
+
+        if (fanController.turning == 1)
+        {
+            targetYaw = maxArrowRotation;   // right
+        }
+        else if (fanController.turning == -1)
+        {
+            targetYaw = -maxArrowRotation;  // left
+        }
+        else
+        {
+            targetYaw = 0f; // center
+        }
+
+        velocityArrow.transform.localRotation = Quaternion.Euler(0f, targetYaw, 0f);
     }
 
     void AdjustCubeCount(int targetCount)
@@ -62,7 +91,7 @@ public class PhysicalCuesManager : MonoBehaviour
         // add
         while (cubes.Count < targetCount)
         {
-            GameObject newCube = Instantiate(prefabArrowCube, transform);
+            GameObject newCube = Instantiate(prefabArrowCube, velocityArrow.transform);
             cubes.Add(newCube.transform); 
         }
 

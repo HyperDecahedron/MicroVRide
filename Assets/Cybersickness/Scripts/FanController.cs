@@ -14,6 +14,8 @@ public class FanController : MonoBehaviour
     [SerializeField] private int fan_offset = 30;
     [SerializeField] private float angular_velocity_th = 10f;
 
+    public int turning = 0; // -1 is left, 1 is right
+
     private Segway segway;
     private float prev_rotation;
     private float timer;
@@ -65,10 +67,16 @@ public class FanController : MonoBehaviour
         if (angular_velocity > angular_velocity_th)
         {
             current_angle = 90 + fan_offset; // turn right
+            turning = 1;
         }
         else if (angular_velocity < -angular_velocity_th)
         {
             current_angle = 90 - fan_offset; // turn left
+            turning = -1;
+        }
+        else
+        {
+            turning = 0;
         }
 
         // calculate velocity
