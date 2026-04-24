@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using VK.BikeLab.Segway;
 
-public class PhysicalCuesManager : MonoBehaviour
+public class PhysicalCuesScooter : MonoBehaviour
 {
     [Header("Arrow Setup")]
     [SerializeField] private GameObject velocityArrow;
@@ -10,14 +10,12 @@ public class PhysicalCuesManager : MonoBehaviour
     [SerializeField] private Transform firstCube; 
     [SerializeField] private GameObject prefabArrowCube;
 
-    [SerializeField] private float cubeLength = 0.15f;
-    [SerializeField] private float gap = 0.3f;
-    [SerializeField] private int maxCubes = 15;
+    private float cubeLength = 0.15f;
+    private float gap = 0.05f;
+    private int maxCubes = 15;
 
-    [SerializeField] private float maxSpeed = 10f;
-
-    [Header("Rotation Setup")]
-    [SerializeField] private float maxArrowRotation = 45f;   // degrees
+    private float maxSpeed = 10f;
+    private float maxArrowRotation = 20f;   // degrees
 
     private Segway escooter;
     private EscooterController eScooterController;

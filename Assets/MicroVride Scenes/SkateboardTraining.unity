@@ -67411,6 +67411,7 @@ MonoBehaviour:
   allowReverseDebug: 1
   keyboardSpeedMultiplier: 1
   keyboardTurnMultiplier: 1
+  throttleActive: 0
 --- !u!114 &664406471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77059,6 +77060,8 @@ GameObject:
   - component: {fileID: 1732688781}
   - component: {fileID: 1732688782}
   - component: {fileID: 1732688783}
+  - component: {fileID: 8104677109472519264}
+  - component: {fileID: 8104677109472519265}
   m_Layer: 0
   m_Name: Skateboard
   m_TagString: Player
@@ -137120,6 +137123,7 @@ MonoBehaviour:
   allowReverseDebug: 1
   keyboardSpeedMultiplier: 1
   keyboardTurnMultiplier: 1
+  throttleActive: 0
 --- !u!114 &1344960746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -220612,6 +220616,34 @@ MonoBehaviour:
     maxV: 0
     angle: 0
   waitStart: 0
+--- !u!114 &8104677109472519264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773809991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68eaf9e80be828840adf11b9ab49b542, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vehicle: {fileID: 773809991}
+  turning: 0
+--- !u!114 &8104677109472519265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773809991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86ba5d6dc5b7c484bb2abad1ef896419, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RestingFrame: {fileID: 621172700}
+  PhysicalCues: {fileID: 0}
 --- !u!4 &8117411974188337860
 Transform:
   m_ObjectHideFlags: 0

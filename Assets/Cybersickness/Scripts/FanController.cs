@@ -9,10 +9,10 @@ public class FanController : MonoBehaviour
 {
     [SerializeField] private GameObject vehicle;
 
-    [SerializeField] private float max_velocity = 5f;
-    [SerializeField] private float send_interval = 0.2f;
-    [SerializeField] private int fan_offset = 30;
-    [SerializeField] private float angular_velocity_th = 10f;
+    private float max_velocity = 3f;
+    private float send_interval = 0.2f;
+    private int fan_offset = 30;
+    private float angular_velocity_th = 8f;
 
     public int turning = 0; // -1 is left, 1 is right
 
