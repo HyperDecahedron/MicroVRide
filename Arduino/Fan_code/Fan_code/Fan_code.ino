@@ -11,11 +11,11 @@ WiFiUDP udp;
 char incomingPacket[255];
 
 // Servo
-const int servoPin = 14; // D14
+const int servoPin = 12; // D14
 Servo fanServo;
 
 // Fan MOSFET control
-const int fanPin = 26;       
+const int fanPin = 14;       
 const int fanFreq = 25000; // frequency of the PWM signal
 const int fanResolution = 8; // 0-255 PWM range
 

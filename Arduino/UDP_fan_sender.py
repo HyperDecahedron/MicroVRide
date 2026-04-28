@@ -1,6 +1,6 @@
 ﻿import socket
 
-ESP32_IP = "10.253.183.211" # esp ip address
+ESP32_IP = "10.125.93.23" # esp ip address
 ESP32_PORT = 5052
 
 key_map = {
