@@ -3,7 +3,7 @@
 
 const char* ssid = "DemonNet";
 const char* password = "1234tongue";
-const char* udpHost = "10.112.67.154";  // CHANGE THIS Unity headset IP
+const char* udpHost = "10.125.93.244";  // CHANGE THIS Unity headset IP
 const int udpPort = 1234;
 
 WiFiUDP udp;
@@ -26,10 +26,24 @@ void sendStatus(const char* status) {
   udp.endPacket();
 }
 
+
+/*void setup() {
+  Serial.begin(115200);
+  WiFi.begin(ssid, password);
+  while (WiFi.status() != WL_CONNECTED) delay(500);
+  udp.begin(udpPort);
+  sendStatus("waiting_start");
+  ready = true;
+}*/
+
 void setup() {
   Serial.begin(115200);
   WiFi.begin(ssid, password);
   while (WiFi.status() != WL_CONNECTED) delay(500);
+
+  Serial.print("ESP32 IP address: ");
+  Serial.println(WiFi.localIP());
+
   udp.begin(udpPort);
   sendStatus("waiting_start");
   ready = true;

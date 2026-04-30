@@ -174784,7 +174784,7 @@ MonoBehaviour:
   useDebugSpeed: 0
   debugSpeed: 5
   speedGain: 1.25
-  useKeyboardDebug: 1
+  useKeyboardDebug: 0
   keyboardSpeed: 15
   keyboardTurn: 20
 --- !u!114 &1732688789

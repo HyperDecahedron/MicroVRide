@@ -3,7 +3,7 @@
 
 const char* ssid = "DemonNet";
 const char* password = "1234tongue";
-const char* udpAddress = "10.112.67.154";  // CHANGE THIS, UNITY HEADSET IP
+const char* udpAddress = "10.125.93.244";  // CHANGE THIS, UNITY HEADSET IP
 const int udpPort = 4210;
 
 WiFiUDP udp;

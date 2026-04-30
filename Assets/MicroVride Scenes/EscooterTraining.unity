@@ -172252,7 +172252,7 @@ MonoBehaviour:
   useDebugSpeed: 0
   debugSpeed: 12
   debugText: {fileID: 0}
-  useKeyboardDebug: 1
+  useKeyboardDebug: 0
   allowReverseDebug: 0
   keyboardSpeedMultiplier: 1
   keyboardTurnMultiplier: 0.2
