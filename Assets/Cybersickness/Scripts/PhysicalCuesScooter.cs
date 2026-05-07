@@ -89,13 +89,23 @@ public class PhysicalCuesScooter : MonoBehaviour
             }
 
             // Position cubes
-            Vector3 forward = velocityArrow.transform.forward;
+            /*Vector3 forward = velocityArrow.transform.forward;
             for (int i = 0; i < cubes.Count; i++)
             {
                 Vector3 pos = transform.position + forward * step * (cubes.Count - 1 - i);
 
                 cubes[i].position = pos;
                 cubes[i].forward = forward;
+            }*/
+            Vector3 forward = cubesParent.forward;
+            int j = cubes.Count - 1;
+            for (int i = 0; i < cubes.Count; i++)
+            {
+                Vector3 localPos = Vector3.forward * step * i;
+
+                cubes[j].localPosition = localPos;
+                cubes[j].localRotation = Quaternion.identity;
+                j--;
             }
         } 
     }

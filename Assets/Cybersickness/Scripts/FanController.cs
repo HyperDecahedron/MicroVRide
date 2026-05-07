@@ -12,7 +12,7 @@ public class FanController : MonoBehaviour
     private float max_velocity = 3f;
     private float send_interval = 0.2f;
     private int fan_offset = 30;
-    private float angular_velocity_th = 8f;
+    private float angular_velocity_th = 6f;
 
     public int turning = 0; // -1 is left, 1 is right
 

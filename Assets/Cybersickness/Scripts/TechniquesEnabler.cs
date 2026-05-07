@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class TechniquesEnabler : MonoBehaviour
 {
-    [SerializeField] private GameObject RestingFrame;
+    //[SerializeField] private GameObject RestingFrame;
+    [SerializeField] private GameObject Helmet;
     [SerializeField] private GameObject PhysicalCues;
 
     void Start()
@@ -14,29 +15,27 @@ public class TechniquesEnabler : MonoBehaviour
         if (string.IsNullOrEmpty(technique))
         {
             Debug.LogWarning("CSTechnique is null or empty. Using default behavior.");
-            RestingFrame.SetActive(true);
-            PhysicalCues.SetActive(true);
             return;
         }
 
+        //RestingFrame.SetActive(false);
+        Helmet.SetActive(false);
+        PhysicalCues.SetActive(false);
+
         if (technique == "af")
         {
-            RestingFrame.SetActive(false);
-            PhysicalCues.SetActive(false);
+            // only air flow
         }
-        else if (technique == "rf")
+        /*else if (technique == "rf")
         {
             RestingFrame.SetActive(true);
-            PhysicalCues.SetActive(false);
+        }*/
+        else if (technique == "hel")
+        {
+            Helmet.SetActive(true);
         }
         else if (technique == "pc")
         {
-            RestingFrame.SetActive(false);
-            PhysicalCues.SetActive(true);
-        }
-        else
-        {
-            RestingFrame.SetActive(true);
             PhysicalCues.SetActive(true);
         }
     }

@@ -6,7 +6,8 @@ using UnityEngine.UI;
 public class StartCSManager : MonoBehaviour
 {
     [SerializeField] private Button af_button; // cs technique "af"
-    [SerializeField] private Button rf_button; // cs technique "rf"
+    //[SerializeField] private Button rf_button; // cs technique "rf"
+    [SerializeField] private Button hel_button; // cs technique "hel"
     [SerializeField] private Button pc_button; // cs technique "pc"
 
     public string selected_technique = "af";
@@ -17,7 +18,8 @@ public class StartCSManager : MonoBehaviour
     {
         // Assign button clicks
         af_button.onClick.AddListener(() => OnClick("af"));
-        rf_button.onClick.AddListener(() => OnClick("rf"));
+        //rf_button.onClick.AddListener(() => OnClick("rf"));
+        hel_button.onClick.AddListener(() => OnClick("hel"));
         pc_button.onClick.AddListener(() => OnClick("pc"));
 
         SelectButton(af_button, "af");
@@ -28,8 +30,10 @@ public class StartCSManager : MonoBehaviour
     {
         if (technique == "af")
             SelectButton(af_button, "af");
-        else if (technique == "rf")
-            SelectButton(rf_button, "rf");
+        //else if (technique == "rf")
+          //  SelectButton(rf_button, "rf");
+        else if (technique == "hel")
+            SelectButton(hel_button, "hel");
         else if (technique == "pc")
             SelectButton(pc_button, "pc");
     }
@@ -38,7 +42,8 @@ public class StartCSManager : MonoBehaviour
     {
         // reset all
         SetButtonColor(af_button, baseColor);
-        SetButtonColor(rf_button, baseColor);
+        //SetButtonColor(rf_button, baseColor);
+        SetButtonColor(hel_button, baseColor);
         SetButtonColor(pc_button, baseColor);
 
         // set this to selected
