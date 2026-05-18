@@ -5,6 +5,16 @@ public class TrainingStartButton : MonoBehaviour
 {
     public void StartTheGame()
     {
+        // fan controller
+        FanController fanController;
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+
+        if (player != null)
+        {
+            fanController = player.GetComponent<FanController>();
+            fanController.DisableFan();
+        }  
+
         // Read the vehicle picked in Start scene
         var type = SessionState.SelectedVehicle;
 

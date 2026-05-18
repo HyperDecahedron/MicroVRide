@@ -4,6 +4,7 @@ using UnityEngine;
 using System.Net.Sockets;
 using System.Text;
 using VK.BikeLab.Segway;
+using System;
 
 public class FanController : MonoBehaviour
 {
@@ -14,7 +15,8 @@ public class FanController : MonoBehaviour
     private int fan_offset = 30;
     private float angular_velocity_th = 6f;
 
-    public int turning = 0; // -1 is left, 1 is right
+    [NonSerialized] public int turning = 0; // -1 is left, 1 is right
+    [NonSerialized] public bool fan_enabled = false;
 
     private Segway segway;
     private float prev_rotation;
@@ -44,8 +46,6 @@ public class FanController : MonoBehaviour
         udpClient = new UdpClient();
 
         prev_rotation = GetVehicleYaw();
-
-        SendFanCommand(90, 0f);
     }
 
     void Update()
@@ -58,35 +58,44 @@ public class FanController : MonoBehaviour
         float delta_time = timer;
         timer = 0f;
 
-        float current_rotation = GetVehicleYaw();
-        float rotation_difference = Mathf.DeltaAngle(prev_rotation, current_rotation);
-        float angular_velocity = rotation_difference / delta_time;
-
-        int current_angle = 90;
-
-        if (angular_velocity > angular_velocity_th)
+        if (fan_enabled)
         {
-            current_angle = 90 + fan_offset; // turn right
-            turning = 1;
-        }
-        else if (angular_velocity < -angular_velocity_th)
-        {
-            current_angle = 90 - fan_offset; // turn left
-            turning = -1;
-        }
-        else
-        {
-            turning = 0;
-        }
+            float current_rotation = GetVehicleYaw();
+            float rotation_difference = Mathf.DeltaAngle(prev_rotation, current_rotation);
+            float angular_velocity = rotation_difference / delta_time;
 
-        // calculate velocity
-        float velocity = Mathf.Clamp(segway.getVelosity(), 0f, max_velocity);
-        float normalised_speed = Mathf.InverseLerp(0f, max_velocity, velocity);
-        normalised_speed = Mathf.Round(normalised_speed * 10f) / 10f;
+            int current_angle = 90;
 
-        SendFanCommand(current_angle, normalised_speed);
+            if (angular_velocity > angular_velocity_th)
+            {
+                current_angle = 90 + fan_offset; // turn right
+                turning = 1;
+            }
+            else if (angular_velocity < -angular_velocity_th)
+            {
+                current_angle = 90 - fan_offset; // turn left
+                turning = -1;
+            }
+            else
+            {
+                turning = 0;
+            }
 
-        prev_rotation = current_rotation;
+            // calculate velocity
+            float velocity = Mathf.Clamp(segway.getVelosity(), 0f, max_velocity);
+            float normalised_speed = Mathf.InverseLerp(0f, max_velocity, velocity);
+            normalised_speed = Mathf.Round(normalised_speed * 10f) / 10f;
+
+            SendFanCommand(current_angle, normalised_speed);
+
+            prev_rotation = current_rotation;
+        } 
+    }
+
+    public void DisableFan()
+    {
+        fan_enabled = false;
+        SendFanCommand(90, 0);
     }
 
     private float GetVehicleYaw()

@@ -25658,13 +25658,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49645f76a83824b7eb5b8906a20feec8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  footSensorInput: {fileID: 1036262343}
-  segway: {fileID: 1121598092}
-  receiverIP: 172.20.10.5
-  receiverPort: 5678
-  calibrationLogged: 0
-  logInterval: 0.05
-  logTimer: 0
 --- !u!1001 &229175121
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -111881,8 +111874,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 177601632d77f4f08b357ff3ad291e06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  listenPort: 4210
-  throttleValue: 0
 --- !u!114 &1036262347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -206684,15 +206675,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7823599251427382983, guid: 15f14c5258cb345ddaf6de6c17e3efef, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 480.1
+      value: 480.07
       objectReference: {fileID: 0}
     - target: {fileID: 7823599251427382983, guid: 15f14c5258cb345ddaf6de6c17e3efef, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 125.4
+      value: 5.57
       objectReference: {fileID: 0}
     - target: {fileID: 7823599251427382983, guid: 15f14c5258cb345ddaf6de6c17e3efef, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 2.2
+      value: 2.19
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15f14c5258cb345ddaf6de6c17e3efef, type: 3}

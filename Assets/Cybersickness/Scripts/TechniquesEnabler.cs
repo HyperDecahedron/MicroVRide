@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class TechniquesEnabler : MonoBehaviour
 {
-    //[SerializeField] private GameObject RestingFrame;
     [SerializeField] private GameObject Helmet;
-    [SerializeField] private GameObject PhysicalCues;
+
+    private FanController fanController;
+
 
     void Start()
     {
+
         string technique = SessionState.CSTechnique;
 
         if (string.IsNullOrEmpty(technique))
@@ -18,25 +20,23 @@ public class TechniquesEnabler : MonoBehaviour
             return;
         }
 
-        //RestingFrame.SetActive(false);
+        // default behaviour, no technique enabled
+        fanController = this.gameObject.GetComponent<FanController>();
+        fanController.fan_enabled = false;
         Helmet.SetActive(false);
-        PhysicalCues.SetActive(false);
 
         if (technique == "af")
         {
-            // only air flow
+            fanController.fan_enabled = true;
         }
-        /*else if (technique == "rf")
-        {
-            RestingFrame.SetActive(true);
-        }*/
         else if (technique == "hel")
         {
             Helmet.SetActive(true);
         }
-        else if (technique == "pc")
+        else if (technique == "af_hel")
         {
-            PhysicalCues.SetActive(true);
+            Helmet.SetActive(true);
+            fanController.fan_enabled = true;
         }
     }
 

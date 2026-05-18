@@ -40,6 +40,9 @@ public class GameManager : MonoBehaviour
     int _totalCoins = 0;
     bool _finished = false;
 
+    // fan controller
+    private FanController fanController;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -54,6 +57,12 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        // fan controller
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+
+        if (player != null)
+            fanController = player.GetComponent<FanController>();
+
         _collected = 0;
         _finished = false;
 
@@ -124,7 +133,6 @@ public class GameManager : MonoBehaviour
         if (finishMenuDuration > 0f)
             StartCoroutine(AutoReturnToStart(finishMenuDuration));
 
-
     }
 
     IEnumerator AutoReturnToStart(float delay)
@@ -141,6 +149,8 @@ public class GameManager : MonoBehaviour
 
     public void BackToStart()
     {
+        fanController.DisableFan();
+
         // Tell Start scene to skip calibration once
         StartSceneFlow.SkipCalibrationNextLoad = true;
         SceneManager.LoadScene("Start");
