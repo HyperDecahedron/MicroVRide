@@ -13184,8 +13184,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   listenPort: 1234
-  leftBoardIP: 10.125.93.33
-  rightBoardIP: 10.125.93.188
+  leftBoardIP: 192.168.1.45
+  rightBoardIP: 192.168.1.254
   calibrationMessage: {fileID: 1540098579}
   vehicleSelectionManager: {fileID: 1114924323}
   currentForwardForce: 0
