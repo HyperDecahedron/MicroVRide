@@ -40,8 +40,11 @@ public class GameManager : MonoBehaviour
     int _totalCoins = 0;
     bool _finished = false;
 
+    // ADDED NATALIA
     // fan controller
     private FanController fanController;
+    //private EscooterController escooterController;
+
 
     private void Awake()
     {
@@ -61,8 +64,11 @@ public class GameManager : MonoBehaviour
         GameObject player = GameObject.FindGameObjectWithTag("Player");
 
         if (player != null)
+        {
             fanController = player.GetComponent<FanController>();
-
+            //escooterController = player.GetComponent<EscooterController>();
+        }
+            
         _collected = 0;
         _finished = false;
 
@@ -124,6 +130,10 @@ public class GameManager : MonoBehaviour
         if (_finished) return;
         _finished = true;
 
+        // Stop vehicle
+        //if (escooterController != null)
+          // escooterController.StopVehicle();
+
         if (finishMenu) finishMenu.SetActive(true);
         if (finishCoinText) finishCoinText.text = $"You collected {_collected} coins!";
 
@@ -159,6 +169,7 @@ public class GameManager : MonoBehaviour
     int CountCoinsInScene()
     {
         var coins = FindObjectsOfType<Coin>(true);
-        return coins?.Length ?? 0;
+        Debug.Log("[Game Manager] Counted " + coins.Length/2 + "coins");
+        return coins?.Length/2 ?? 0;
     }
 }

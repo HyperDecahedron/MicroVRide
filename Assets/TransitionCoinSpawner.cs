@@ -281,12 +281,14 @@ public class TransitionCoinSpawner : MonoBehaviour
 
         int c0 = 0, c1 = 0, c2 = 0, c3 = 0;
 
-        for (int i = 0; i < _samples.Count; i++)
+        int maxCoins = Mathf.Min(_samples.Count, lateralPool.Count);
+
+        for (int i = 0; i < maxCoins; i++)
         {
             Vector3 basePos = _samples[i];
             Vector3 right = _rights[i];
 
-            var entry = lateralPool[i % lateralPool.Count];
+            var entry = lateralPool[i];
             float lat = entry.lat;
             int type = entry.type;
 
@@ -354,7 +356,7 @@ public class TransitionCoinSpawner : MonoBehaviour
 
         float lateral = Vector3.Dot(offset, right);
 
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < 7; i++)
             list.Add((lateral, type));
     }
 

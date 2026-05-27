@@ -429,4 +429,32 @@ public class EscooterController : MonoBehaviour
         float maxDelta = Mathf.Max(0f, ratePerSec) * dt;
         return Mathf.MoveTowards(current, target, maxDelta);
     }
+
+    public void StopVehicle()
+    {
+        if (segway == null) return;
+
+        // Reset internal controller commands
+        cmdSpeed = 0f;
+        cmdTurn = 0f;
+
+        // Stop Segway movement/incline
+        segway.setVelocity(0f);
+        segway.setSideIncline(0f);
+
+        // Reset target incline if used internally
+        segway.targetIncline = 0f;
+
+        // Stop rigidbody physics completely
+        Rigidbody rb = segway.getRigidbody();
+
+        if (rb != null)
+        {
+            rb.velocity = Vector3.zero;
+            rb.angularVelocity = Vector3.zero;
+
+            // Optional extra safety
+            rb.Sleep();
+        }
+    }
 }

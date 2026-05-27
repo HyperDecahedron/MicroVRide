@@ -12752,6 +12752,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1547557849}
   - component: {fileID: 1547557852}
+  - component: {fileID: 1547557853}
   m_Layer: 0
   m_Name: SensorManager
   m_TagString: Untagged
@@ -12794,6 +12795,19 @@ MonoBehaviour:
   imuRoll: 0
   imuYaw: 0
   logFirstFootKeys: 1
+--- !u!114 &1547557853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547557846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68eaf9e80be828840adf11b9ab49b542, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vehicle: {fileID: 0}
 --- !u!1 &1554923493
 GameObject:
   m_ObjectHideFlags: 0
@@ -13184,8 +13198,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   listenPort: 1234
-  leftBoardIP: 192.168.1.45
-  rightBoardIP: 192.168.1.254
+  leftBoardIP: 172.20.10.2
+  rightBoardIP: 172.20.10.3
   calibrationMessage: {fileID: 1540098579}
   vehicleSelectionManager: {fileID: 1114924323}
   currentForwardForce: 0

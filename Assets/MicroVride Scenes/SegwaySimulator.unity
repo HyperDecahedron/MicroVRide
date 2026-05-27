@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3360223, g: 0.520416, b: 0.5872436, a: 1}
+  m_IndirectSpecularColor: {r: 0.33510154, g: 0.5188993, b: 0.5856541, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -30399,6 +30399,11 @@ MonoBehaviour:
   useDebugSpeed: 0
   debugSpeed: 0
   debugText: {fileID: 0}
+  useKeyboardDebug: 0
+  allowReverseDebug: 1
+  keyboardSpeedMultiplier: 1
+  keyboardTurnMultiplier: 1
+  throttleActive: 0
 --- !u!114 &308211625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82607,6 +82612,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   statusMessage: {fileID: 1975682849}
   vehicleSelectionPanel: {fileID: 207564033}
+  csSelectionManager: {fileID: 0}
   controlActiveIndicator: {fileID: 383027280}
   segwayButton: {fileID: 410199174}
   escooterButton: {fileID: 1006774354}
@@ -88168,6 +88174,11 @@ MonoBehaviour:
   useDebugSpeed: 0
   debugSpeed: 0
   debugText: {fileID: 0}
+  useKeyboardDebug: 0
+  allowReverseDebug: 1
+  keyboardSpeedMultiplier: 1
+  keyboardTurnMultiplier: 1
+  throttleActive: 0
 --- !u!114 &803969220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -112433,6 +112444,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   statusMessage: {fileID: 1004184705}
   vehicleSelectionPanel: {fileID: 2144795416}
+  csSelectionManager: {fileID: 0}
   controlActiveIndicator: {fileID: 1949113258}
   segwayButton: {fileID: 546221772}
   escooterButton: {fileID: 179712150}
@@ -184860,6 +184872,9 @@ MonoBehaviour:
   useDebugSpeed: 0
   debugSpeed: 0
   speedGain: 1.25
+  useKeyboardDebug: 0
+  keyboardSpeed: 5
+  keyboardTurn: 20
 --- !u!114 &1732688789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -203580,12 +203595,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a62c06caa4cbc409bb4019e36054989a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pathRoot: {fileID: 1899474595}
+  waypointStart: {fileID: 0}
+  waypointEnd: {fileID: 0}
+  waypoint0: {fileID: 0}
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  waypoint3: {fileID: 0}
   coinPrefab: {fileID: 1599816045716520360, guid: 02abe992deeba4f13ae5ed42b5380da7, type: 3}
-  config: {fileID: 11400000, guid: ed5795f6e9343434ca2beae4bc6a2582, type: 2}
   coinSpacing: 15
   randomSeed: 0
-  forwardJitter: 0.15
   generateInEditMode: 0
   autoRegenerateOnChange: 0
   spawnOnStartPlay: 1
@@ -228383,7 +228401,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3043344535462917613, guid: e8d45845660b31e478d931124e918a6c, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3083336691613387045, guid: e8d45845660b31e478d931124e918a6c, type: 3}
       propertyPath: m_Layer
@@ -228863,7 +228881,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8838952730355325309, guid: e8d45845660b31e478d931124e918a6c, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8931210004254161545, guid: e8d45845660b31e478d931124e918a6c, type: 3}
       propertyPath: m_Layer

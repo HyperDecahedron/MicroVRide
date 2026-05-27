@@ -23,11 +23,13 @@ public class FanController : MonoBehaviour
     private float timer;
 
     private UdpClient udpClient;
-    private string ipAddress = "10.125.93.23";
+    private string ipAddress = "172.20.10.5";
     private int port = 5052;
 
     void Start()
     {
+        SendFanCommand(90, 1);
+
         if (vehicle == null)
         {
             Debug.LogError("[FanController] Vehicle reference is missing.");
