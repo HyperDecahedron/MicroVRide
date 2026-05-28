@@ -9,6 +9,7 @@ using System;
 public class FanController : MonoBehaviour
 {
     [SerializeField] private GameObject vehicle;
+    public bool debug = false;
 
     private float max_velocity = 3f;
     private float send_interval = 0.2f;
@@ -23,31 +24,39 @@ public class FanController : MonoBehaviour
     private float timer;
 
     private UdpClient udpClient;
-    private string ipAddress = "172.20.10.5";
+    private string ipAddress = "172.20.10.8";
     private int port = 5052;
 
     void Start()
     {
-        SendFanCommand(90, 1);
-
-        if (vehicle == null)
+        if (!debug)
         {
-            Debug.LogError("[FanController] Vehicle reference is missing.");
-            enabled = false;
-            return;
-        }
+            if (vehicle == null)
+            {
+                Debug.LogError("[FanController] Vehicle reference is missing.");
+                fan_enabled = false;
+                return;
+            }
 
-        segway = vehicle.GetComponent<Segway>();
-        if (segway == null)
+            segway = vehicle.GetComponent<Segway>();
+            if (segway == null)
+            {
+                Debug.LogError("[FanController] Segway component not found.");
+                fan_enabled = false;
+                return;
+            }
+
+            udpClient = new UdpClient();
+            SendFanCommand(90, 0);
+
+            prev_rotation = GetVehicleYaw();
+        }
+        else
         {
-            Debug.LogError("[FanController] Segway component not found.");
-            enabled = false;
-            return;
+            udpClient = new UdpClient();
+            SendFanCommand(120, 1);
         }
-
-        udpClient = new UdpClient();
-
-        prev_rotation = GetVehicleYaw();
+        
     }
 
     void Update()
@@ -113,7 +122,7 @@ public class FanController : MonoBehaviour
         try
         {
             udpClient.Send(data, data.Length, ipAddress, port);
-            //Debug.Log($"[FanController] Sent: {message}");
+            Debug.Log($"[FanController] Sent: {message}");
         }
         catch (System.Exception e)
         {

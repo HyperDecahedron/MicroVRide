@@ -12808,6 +12808,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vehicle: {fileID: 0}
+  debug: 1
 --- !u!1 &1554923493
 GameObject:
   m_ObjectHideFlags: 0
