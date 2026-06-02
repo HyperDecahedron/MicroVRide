@@ -174749,7 +174749,7 @@ MonoBehaviour:
   vehicleSelectionManager: {fileID: 0}
   footInput: {fileID: 0}
   maxSpeed: 20
-  maxTurnAngle: 25
+  maxTurnAngle: 360
   yawDeadzoneDeg: 3
   foreAftDeadzone: 0.07
   foreAftHysteresis: 0.03
@@ -221470,7 +221470,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vehicle: {fileID: 773809991}
-  turning: 0
+  debug: 0
 --- !u!114 &8104677109472519265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -221483,8 +221483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86ba5d6dc5b7c484bb2abad1ef896419, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RestingFrame: {fileID: 1497612949552516866}
-  PhysicalCues: {fileID: 6373565536626847311}
+  Helmet: {fileID: 0}
 --- !u!4 &8117411974188337860
 Transform:
   m_ObjectHideFlags: 0

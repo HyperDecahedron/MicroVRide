@@ -1,9 +1,9 @@
 #include <WiFi.h>
 #include <WiFiUdp.h>
 
-const char* ssid = "MasterVR";
-const char* password = "11112222";
-const char* udpHost = "192.168.0.188";  // Unity headset IP
+const char* ssid = "ASUS_VR";
+const char* password = "MicroVRide";
+const char* udpHost = "192.168.1.16";  // CHANGE THIS Unity headset IP
 const int udpPort = 1234;
 
 WiFiUDP udp;
@@ -26,15 +26,30 @@ void sendStatus(const char* status) {
   udp.endPacket();
 }
 
+/*void setup() {
+  Serial.begin(115200);
+  WiFi.begin(ssid, password);
+  while (WiFi.status() != WL_CONNECTED) delay(500);
+  
+  udp.begin(udpPort);
+  sendStatus("waiting_start");
+  ready = true;
+}*/
+
 void setup() {
   Serial.begin(115200);
   WiFi.begin(ssid, password);
   while (WiFi.status() != WL_CONNECTED) delay(500);
+
+  Serial.print("ESP32 IP address: ");
   Serial.println(WiFi.localIP());
+
   udp.begin(udpPort);
   sendStatus("waiting_start");
   ready = true;
 }
+
+
 
 void loop() {
   if (!calibrated) {
@@ -81,21 +96,28 @@ void loop() {
   delay(50);
 }
 
-void doBaselineCalibration() {              
-    sendStatus("baseline_start");         
-    // baseline stays {0,0,0,0} — no measurement needed
-    sendStatus("baseline_done");                                                                                                                               
+void doBaselineCalibration() {
+  sendStatus("baseline_start");
+  memset(baselineFSR, 0, sizeof(baselineFSR));
+  for (int i = 0; i < samples; i++) {
+    for (int j = 0; j < 4; j++)
+      baselineFSR[j] += analogRead(fsrPins[j]);
+    delay(200);
   }
+  for (int j = 0; j < 4; j++)
+    baselineFSR[j] /= samples;
+  sendStatus("baseline_done");
+}
 
 void doMaxCalibration() {
   sendStatus("max_start");
   memset(maxFSR, 0, sizeof(maxFSR));
-    for (int i = 0; i < samples; i++) {                                                                                                                        
-      for (int j = 0; j < 4; j++)                                                                                                                            
-        maxFSR[j] += analogRead(fsrPins[j]);  // average of raw (baseline=0 now)
-      delay(200);                             
-    }                                                                                                                                                          
-    for (int j = 0; j < 4; j++)           
-      maxFSR[j] = max(maxFSR[j] / samples, 50);  // average, minimum 50
+  for (int i = 0; i < samples; i++) {
+    for (int j = 0; j < 4; j++)
+      maxFSR[j] += max(analogRead(fsrPins[j]) - baselineFSR[j], 0);
+    delay(200);
+  }
+  for (int j = 0; j < 4; j++)
+    maxFSR[j] = max(maxFSR[j] / samples, 1);
   sendStatus("max_done");
 }

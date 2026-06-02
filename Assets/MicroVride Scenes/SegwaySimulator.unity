@@ -184837,7 +184837,7 @@ MonoBehaviour:
   vehicleSelectionManager: {fileID: 0}
   footInput: {fileID: 0}
   maxSpeed: 20
-  maxTurnAngle: 25
+  maxTurnAngle: 360
   yawDeadzoneDeg: 3
   foreAftDeadzone: 0.07
   foreAftHysteresis: 0.03

@@ -6,8 +6,10 @@
 // WIFI and UDP settings
 //const char* ssid = "DemonNet";
 //const char* password = "1234tongue";
-const char* ssid = "XIAOYAN iPhone";
-const char* password = "leahFan2328391";
+//const char* ssid = "XIAOYAN iPhone";
+//const char* password = "leahFan2328391";
+const char* ssid = "MasterVR";
+const char* password = "11112222";
 const int UDP_PORT = 5052;
 WiFiUDP udp;
 char incomingPacket[255];

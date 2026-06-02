@@ -23,7 +23,7 @@ public class StartCSManager : MonoBehaviour
         hel_button.onClick.AddListener(() => OnClick("hel"));
         af_hel_button.onClick.AddListener(() => OnClick("af_hel"));
 
-        SelectButton(af_button, "none");
+        SelectButton(none_button, "none");
 
     }
 

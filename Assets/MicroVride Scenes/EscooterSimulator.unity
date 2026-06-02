@@ -52603,6 +52603,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7897eb04b949ca044a73864e2272985c, type: 2}
+    - target: {fileID: 6384337612619839203, guid: aeb63e142df7adc4b8d763ecd9f1f164, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7477771994331207331, guid: aeb63e142df7adc4b8d763ecd9f1f164, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -63602,7 +63606,7 @@ SphereCollider:
   m_GameObject: {fileID: 607449506}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.25
   m_Center: {x: 0, y: 0, z: 0}
@@ -70411,7 +70415,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 671222817}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.7, y: 0, z: -331.99}
+  m_LocalPosition: {x: 2.5, y: 0, z: -331.99}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -100148,7 +100152,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 916917770}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1, y: 0, z: -331.99}
+  m_LocalPosition: {x: -1.25, y: 0, z: -331.99}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -139200,6 +139204,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 452306885313252298, guid: 61a65da622ee08841a7c4eb72e1e24f6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7365246233999618777, guid: 61a65da622ee08841a7c4eb72e1e24f6, type: 3}
       propertyPath: m_Name
       value: MB_Cone_Orange (6)
@@ -144470,7 +144478,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1348512802}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: 0, z: -331.99}
+  m_LocalPosition: {x: 1.25, y: 0, z: -331.99}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -194569,7 +194577,7 @@ SphereCollider:
   m_GameObject: {fileID: 1814310517}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.25
   m_Center: {x: 0, y: 0, z: 0}
@@ -197293,7 +197301,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1841718343}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.7, y: 0, z: -331.99}
+  m_LocalPosition: {x: -2.5, y: 0, z: -331.99}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -226626,6 +226634,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 452306885313252298, guid: 61a65da622ee08841a7c4eb72e1e24f6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7365246233999618777, guid: 61a65da622ee08841a7c4eb72e1e24f6, type: 3}
       propertyPath: m_Name
       value: MB_Cone_Orange (5)
@@ -234415,6 +234427,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Helmet: {fileID: 294190562}
+  debug_text2: {fileID: 0}
+  debug2: 0
 --- !u!114 &8104677109472519265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -234428,6 +234442,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vehicle: {fileID: 773809991}
+  debug_text: {fileID: 0}
+  debug_text2: {fileID: 0}
+  debug: 0
+  debug2: 0
 --- !u!4 &8117411974188337860
 Transform:
   m_ObjectHideFlags: 0

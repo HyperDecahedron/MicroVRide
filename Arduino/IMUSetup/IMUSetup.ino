@@ -6,11 +6,13 @@
 #include <utility/imumaths.h>
 
 // Wi-Fi credentials
-const char* ssid = "ASUS_VR";
-const char* password = "MicroVRide";
+//const char* ssid = "ASUS_VR";
+//const char* password = "MicroVRide";
+const char* ssid = "MasterVR";
+const char* password = "11112222";
 
 // UDP target
-const char* udpHost = "192.168.1.16";  // CHANGE THIS, UNITY HEADSET IP
+const char* udpHost = "192.168.0.188";  // CHANGE THIS, UNITY HEADSET IP
 const int udpPort = 1235;
 
 WiFiUDP udp;

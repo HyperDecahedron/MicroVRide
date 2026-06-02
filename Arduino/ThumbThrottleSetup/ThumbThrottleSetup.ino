@@ -1,9 +1,9 @@
 #include <WiFi.h>
 #include <WiFiUdp.h>
 
-const char* ssid = "ASUS_VR";
-const char* password = "MicroVRide";
-const char* udpAddress = "192.168.1.16";  // CHANGE THIS, UNITY HEADSET IP
+const char* ssid = "MasterVR";
+const char* password = "11112222";
+const char* udpAddress = "192.168.0.188";  // CHANGE THIS, UNITY HEADSET IP
 const int udpPort = 4210;
 
 WiFiUDP udp;
