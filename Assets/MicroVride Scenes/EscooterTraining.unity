@@ -172477,14 +172477,14 @@ MonoBehaviour:
   segway: {fileID: 595443042618976105}
   vehicleSelectionManager: {fileID: 0}
   maxSpeed: 12
-  maxTurnAngle: 35
+  maxTurnAngle: 40
   throttleDeadzone: 0.08
   yawDeadzoneDeg: 3
   steerAxis: 1
   steerZeroDeg: 0
   invertSteer: 1
   autoZeroOnStart: 1
-  yawSensitivityDeg: 60
+  yawSensitivityDeg: 40
   throttleExpo: 0.35
   yawExpo: 0.4
   speedFilter: 6
@@ -172497,7 +172497,7 @@ MonoBehaviour:
   smoothing: 5
   turnGain: 1
   requireThrottleToMove: 1
-  idleBrakePerSec: 3
+  idleBrakePerSec: 6
   minSpeedForLean: 0.8
   allowTurnWhenStationary: 1
   environmentLayers:

@@ -63585,7 +63585,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &621172701
 Transform:
   m_ObjectHideFlags: 0
@@ -87112,6 +87112,73 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 9217661662086099133, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
   m_PrefabInstance: {fileID: 865715801}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &868665313
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3418074699821363634}
+    m_Modifications:
+    - target: {fileID: 369066545116985010, guid: 3edad3877243402469c590995d2765f3, type: 3}
+      propertyPath: m_Name
+      value: Helmet
+      objectReference: {fileID: 0}
+    - target: {fileID: 369066545116985013, guid: 3edad3877243402469c590995d2765f3, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 369066545116985013, guid: 3edad3877243402469c590995d2765f3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 369066545116985013, guid: 3edad3877243402469c590995d2765f3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 369066545116985013, guid: 3edad3877243402469c590995d2765f3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 369066545116985013, guid: 3edad3877243402469c590995d2765f3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 369066545116985013, guid: 3edad3877243402469c590995d2765f3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000081460335
+      objectReference: {fileID: 0}
+    - target: {fileID: 369066545116985013, guid: 3edad3877243402469c590995d2765f3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 369066545116985013, guid: 3edad3877243402469c590995d2765f3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 369066545116985013, guid: 3edad3877243402469c590995d2765f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 369066545116985013, guid: 3edad3877243402469c590995d2765f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 369066545116985013, guid: 3edad3877243402469c590995d2765f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3edad3877243402469c590995d2765f3, type: 3}
+--- !u!4 &868665314 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 369066545116985013, guid: 3edad3877243402469c590995d2765f3, type: 3}
+  m_PrefabInstance: {fileID: 868665313}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &868665315 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 369066545116985010, guid: 3edad3877243402469c590995d2765f3, type: 3}
+  m_PrefabInstance: {fileID: 868665313}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &869594927
 PrefabInstance:
@@ -162119,7 +162186,7 @@ RectTransform:
   - {fileID: 385878951}
   - {fileID: 607515368}
   m_Father: {fileID: 3418074699821363634}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -218225,6 +218292,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 868665314}
   - {fileID: 1577359795}
   m_Father: {fileID: 842498282344855618}
   m_RootOrder: 1
@@ -220629,7 +220697,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vehicle: {fileID: 773809991}
-  turning: 0
+  debug_text: {fileID: 0}
+  debug_text2: {fileID: 0}
+  debug: 0
+  debug2: 0
 --- !u!114 &8104677109472519265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -220642,8 +220713,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86ba5d6dc5b7c484bb2abad1ef896419, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RestingFrame: {fileID: 621172700}
-  PhysicalCues: {fileID: 0}
+  Helmet: {fileID: 868665315}
+  debug_text2: {fileID: 0}
+  debug2: 0
 --- !u!4 &8117411974188337860
 Transform:
   m_ObjectHideFlags: 0

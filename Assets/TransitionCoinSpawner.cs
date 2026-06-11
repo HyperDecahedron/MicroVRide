@@ -6,11 +6,9 @@ using System.IO;
 using UnityEditor;
 #endif
 
-/// Straight-line coin spawner for HCI study:
 /// - Coins spawn along a straight line from waypointStart -> waypointEnd
 /// - Coins are spaced uniformly
 /// - Lateral offsets are derived from waypoint0/1/2/3 distances to waypointStart
-/// - 5 coins are spawned per waypoint lateral distance (20 total)
 /// - Coin order is randomized
 /// - Keeps original CoinMeta, airHeight, CSV export, etc.
 [ExecuteAlways]
@@ -356,7 +354,7 @@ public class TransitionCoinSpawner : MonoBehaviour
 
         float lateral = Vector3.Dot(offset, right);
 
-        for (int i = 0; i < 7; i++)
+        for (int i = 0; i < 5; i++)
             list.Add((lateral, type));
     }
 

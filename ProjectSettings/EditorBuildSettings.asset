@@ -9,13 +9,13 @@ EditorBuildSettings:
     path: Assets/MicroVride Scenes/Start.unity
     guid: 0d23f95107d1b4645b94133d71cf01b8
   - enabled: 1
-    path: Assets/MicroVride Scenes/SegwaySimulator.unity
+    path: Assets/MicroVride Scenes/old scenes/Deprecated_SegwaySimulator.unity
     guid: f08a4025863d642bfbe644750045e0ad
   - enabled: 1
-    path: Assets/MicroVride Scenes/SkateboardSimulator.unity
+    path: Assets/MicroVride Scenes/old scenes/Deprecated_SkateboardSimulator.unity
     guid: 04e3bea50888b443b9527a65c1d002ea
   - enabled: 1
-    path: Assets/MicroVride Scenes/UnicycleSimulator.unity
+    path: Assets/MicroVride Scenes/old scenes/Deprecated_UnicycleSimulator.unity
     guid: 4211503ab62f94f3e817f86c554dbaa3
   - enabled: 1
     path: Assets/MicroVride Scenes/EscooterSimulator.unity
