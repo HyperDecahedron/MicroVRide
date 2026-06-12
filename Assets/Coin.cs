@@ -70,9 +70,12 @@ void OnTriggerEnter(Collider other)
 
     if (!(tagOk || layerOk)) return;
 
+        Debug.Log("other:" + other.gameObject.name);
+
     // ✅ Immediately disable collider so it can’t stop vehicle physics
     var col = GetComponent<Collider>();
-    if (col) col.enabled = false;
+        Debug.Log("col:" + col.gameObject.name);
+        if (col) col.enabled = false;
 
         var gm = GameManager.Instance;
         if (gm != null) gm.AddCoin(1);

@@ -55482,6 +55482,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MB_Passenger_Aircraft
       objectReference: {fileID: 0}
+    - target: {fileID: 51383527251528278, guid: ee1a82c7165b04f4ca0ae6ee17fb16fc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 863949675962700012, guid: ee1a82c7165b04f4ca0ae6ee17fb16fc, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -172497,9 +172501,9 @@ MonoBehaviour:
   smoothing: 5
   turnGain: 1
   requireThrottleToMove: 1
-  idleBrakePerSec: 6
+  idleBrakePerSec: 20
   minSpeedForLean: 0.8
-  allowTurnWhenStationary: 1
+  allowTurnWhenStationary: 0
   environmentLayers:
     serializedVersion: 2
     m_Bits: 4294967295

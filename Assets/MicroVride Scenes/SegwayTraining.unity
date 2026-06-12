@@ -84742,6 +84742,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MB_Passenger_Aircraft
       objectReference: {fileID: 0}
+    - target: {fileID: 51383527251528278, guid: ee1a82c7165b04f4ca0ae6ee17fb16fc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 863949675962700012, guid: ee1a82c7165b04f4ca0ae6ee17fb16fc, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -216518,7 +216522,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6482475619846469744}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6803edce0201f574f923fd9d10e5b30a, type: 3}
   m_Name: 
@@ -220327,7 +220331,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1091381219197991687}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6803edce0201f574f923fd9d10e5b30a, type: 3}
   m_Name: 
