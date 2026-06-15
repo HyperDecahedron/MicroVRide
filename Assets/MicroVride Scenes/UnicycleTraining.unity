@@ -171276,7 +171276,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9911422a5fc7b4c35bb4e36302915a9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  segway: {fileID: 0}
+  segway: {fileID: 595443042618976105}
   vehicleSelectionManager: {fileID: 0}
   speedAxis: 2
   speedDeadzoneDeg: 1
@@ -171302,7 +171302,7 @@ MonoBehaviour:
   smoothing: 3
   idleBrakePerSec: 1
   minSpeedForLean: 0.2
-  allowTurnWhenStationary: 1
+  allowTurnWhenStationary: 0
   environmentLayers:
     serializedVersion: 2
     m_Bits: 0

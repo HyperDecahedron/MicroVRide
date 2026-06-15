@@ -167780,7 +167780,7 @@ MonoBehaviour:
   smoothing: 2.5
   idleBrakePerSec: 6
   minSpeedForLean: 0.3
-  allowTurnWhenStationary: 1
+  allowTurnWhenStationary: 0
   useDebugSpeed: 0
   debugSpeed: 3
   environmentLayers:

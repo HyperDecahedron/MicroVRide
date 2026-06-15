@@ -153533,7 +153533,7 @@ MonoBehaviour:
   smoothing: 5
   turnGain: 1
   requireThrottleToMove: 1
-  idleBrakePerSec: 20
+  idleBrakePerSec: 50
   minSpeedForLean: 0.8
   allowTurnWhenStationary: 0
   environmentLayers:

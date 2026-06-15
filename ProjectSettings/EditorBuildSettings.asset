@@ -8,13 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MicroVride Scenes/Start.unity
     guid: 0d23f95107d1b4645b94133d71cf01b8
-  - enabled: 1
+  - enabled: 0
     path: Assets/MicroVride Scenes/old scenes/Deprecated_SegwaySimulator.unity
     guid: f08a4025863d642bfbe644750045e0ad
-  - enabled: 1
+  - enabled: 0
     path: Assets/MicroVride Scenes/old scenes/Deprecated_SkateboardSimulator.unity
     guid: 04e3bea50888b443b9527a65c1d002ea
-  - enabled: 1
+  - enabled: 0
     path: Assets/MicroVride Scenes/old scenes/Deprecated_UnicycleSimulator.unity
     guid: 4211503ab62f94f3e817f86c554dbaa3
   - enabled: 1
@@ -32,6 +32,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MicroVride Scenes/EscooterTraining.unity
     guid: 2de14c52678ee4f0990b42c9478fddc0
+  - enabled: 1
+    path: Assets/MicroVride Scenes/SegwaySimulator.unity
+    guid: fb6ee919732943f45ada1833ec5fd681
+  - enabled: 1
+    path: Assets/MicroVride Scenes/SkateboardSimulator.unity
+    guid: 37e6717f97cc7654c8a7b10acc3239c3
+  - enabled: 1
+    path: Assets/MicroVride Scenes/UnicycleSimulator.unity
+    guid: dec8b42170dd4aa45b5e49114a56c2cf
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 9092e49d3400f41c0805392e6c5df645, type: 2}
     com.unity.addressableassets: {fileID: 11400000, guid: 720bbd9af8ed6483f914a2d782e27c83, type: 2}

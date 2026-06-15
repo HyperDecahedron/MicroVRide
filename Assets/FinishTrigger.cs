@@ -6,6 +6,7 @@ public class FinishTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Debug.Log("[Finish Trigger] Called Finish Ride");
             GameManager.Instance.FinishRide();
         }
     }

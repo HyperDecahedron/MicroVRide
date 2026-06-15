@@ -126,16 +126,6 @@ public class SegwayController : MonoBehaviour
     [Tooltip("Multiply the mapped foot magnitude before converting to m/s.")]
     public float speedGain = 1.5f; // 1.0 = unchanged, >1 = stronger
 
-    [Header("Keyboard Debug")]
-    [Tooltip("Use WASD input instead of sensors/IMU.")]
-    public bool useKeyboardDebug = false;
-
-    [Tooltip("Keyboard forward/back speed (m/s).")]
-    public float keyboardSpeed = 5f;
-
-    [Tooltip("Keyboard turn angle (deg).")]
-    public float keyboardTurn = 20f;
-
 
     // ================= Lifecycle =================
     void Start()
@@ -155,8 +145,6 @@ public class SegwayController : MonoBehaviour
             Debug.Log($"[SegwayController] using FootSensorInput id={footInput.GetInstanceID()}");
 
         coinsLayer = LayerMask.NameToLayer("Coins");
-
-        if(useKeyboardDebug) controllerEnabled = true;
     }
 
     public void EnableControl(bool enable) => controllerEnabled = enable;
@@ -173,179 +161,152 @@ public class SegwayController : MonoBehaviour
     // ================= Update =================
     private void Update()
     {
-        if (!controllerEnabled || segway == null) return;
+        if (!controllerEnabled || segway == null || dataReceiver == null) return;
 
-        if (!useKeyboardDebug && dataReceiver == null) return;
+        // --- TURN (IMU) ---
+        float rawAxisDeg = ReadSteerAxisDeg();
+        float rawYawDeg = (rawAxisDeg - steerZeroDeg) * (invertSteer ? -1f : 1f);
+        float yawDeg = ApplyDeadzoneSigned(rawYawDeg, yawDeadzoneDeg);
+        float yawNorm = Mathf.Clamp(yawDeg / Mathf.Max(1e-3f, yawSensitivityDeg), -1f, 1f);
+        yawNorm = ApplyExpoSigned(yawNorm, yawExpo);
+        float targetTurn = Mathf.Clamp(-yawNorm * maxTurnAngle, -maxTurnAngle, maxTurnAngle);
 
-        if (!useKeyboardDebug)
+        // --- SPEED (Feet) ---
+        float lHeel, lToe, lMidL, lMidR, rHeel, rToe, rMidL, rMidR;
+        ReadFeet(out lHeel, out lToe, out lMidL, out lMidR,
+                 out rHeel, out rToe, out rMidL, out rMidR);
+
+        float toesMax = Mathf.Max(lToe, rToe);
+        float heelsMax = Mathf.Max(lHeel, rHeel);
+        float intentRaw = toesMax - heelsMax;  // >0 forward, <0 back
+        float intentMag = Mathf.Abs(intentRaw);
+
+        int desiredDir = 0;
+        if (intentMag > (foreAftDeadzone + foreAftHysteresis)) desiredDir = (intentRaw > 0f) ? 1 : -1;
+        else if (intentMag < (foreAftDeadzone - foreAftHysteresis)) desiredDir = 0;
+        else desiredDir = lastDir;
+
+        lastDir = desiredDir;
+
+        // Map magnitude with expo
+        float mag = 0f;
+        if (intentMag > foreAftDeadzone)
         {
-            // --- TURN (IMU) ---
-            float rawAxisDeg = ReadSteerAxisDeg();
-            float rawYawDeg = (rawAxisDeg - steerZeroDeg) * (invertSteer ? -1f : 1f);
-            float yawDeg = ApplyDeadzoneSigned(rawYawDeg, yawDeadzoneDeg);
-            float yawNorm = Mathf.Clamp(yawDeg / Mathf.Max(1e-3f, yawSensitivityDeg), -1f, 1f);
-            yawNorm = ApplyExpoSigned(yawNorm, yawExpo);
-            float targetTurn = Mathf.Clamp(-yawNorm * maxTurnAngle, -maxTurnAngle, maxTurnAngle);
+            float t = Mathf.InverseLerp(foreAftDeadzone, 1f, intentMag);
+            t = ApplyExpo01(t, foreAftExpo);
+            mag = Mathf.Clamp01(t * speedGain);
 
-            // --- SPEED (Feet) ---
-            float lHeel, lToe, lMidL, lMidR, rHeel, rToe, rMidL, rMidR;
-            ReadFeet(out lHeel, out lToe, out lMidL, out lMidR,
-                     out rHeel, out rToe, out rMidL, out rMidR);
-
-            float toesMax = Mathf.Max(lToe, rToe);
-            float heelsMax = Mathf.Max(lHeel, rHeel);
-            float intentRaw = toesMax - heelsMax;  // >0 forward, <0 back
-            float intentMag = Mathf.Abs(intentRaw);
-
-            int desiredDir = 0;
-            if (intentMag > (foreAftDeadzone + foreAftHysteresis)) desiredDir = (intentRaw > 0f) ? 1 : -1;
-            else if (intentMag < (foreAftDeadzone - foreAftHysteresis)) desiredDir = 0;
-            else desiredDir = lastDir;
-
-            lastDir = desiredDir;
-
-            // Map magnitude with expo
-            float mag = 0f;
-            if (intentMag > foreAftDeadzone)
-            {
-                float t = Mathf.InverseLerp(foreAftDeadzone, 1f, intentMag);
-                t = ApplyExpo01(t, foreAftExpo);
-                mag = Mathf.Clamp01(t * speedGain);
-
-            }
-
-            float targetVelocity = (requireIntentToMove && desiredDir == 0)
-                ? 0f
-                : desiredDir * mag * maxSpeed;
-
-            // --- Speed-scaled steering ---
-            float speedNow = Mathf.Abs(segway.getVelosity());
-            float steerScale = 1f - (1f - minSteerScaleAtHighSpeed) *
-                               Mathf.Clamp01(Mathf.InverseLerp(steerTightenStartSpeed, steerTightenEndSpeed, speedNow));
-
-            bool canApplyLean = allowTurnWhenStationary || (speedNow >= minSpeedForLean) || (Mathf.Abs(targetVelocity) > 0.01f);
-            targetTurn = canApplyLean ? (-yawNorm) * maxTurnAngle * steerScale * turnGain : 0f;
-
-            // --- DEBUG SPEED OVERRIDE ---
-            if (useDebugSpeed)
-                targetVelocity = Mathf.Clamp(debugSpeed, -maxSpeed, maxSpeed);
-
-            // --- Collision guards ---
-            bool bumperBlock = Physics.Raycast(
-                segway.transform.position + Vector3.up * 0.2f,
-                segway.transform.forward,
-                out RaycastHit hit,
-                bumperDistance,
-                environmentLayers,
-                QueryTriggerInteraction.Ignore
-            ) && hit.collider.gameObject.layer != coinsLayer;
-
-            if (bumperBlock && targetVelocity > 0f) targetVelocity = 0f;
-
-            if (Time.time < recoverUntil && lastHitNormal != Vector3.zero)
-            {
-                if (Vector3.Dot(segway.transform.forward, lastHitNormal) > 0f && targetVelocity > 0f)
-                    targetVelocity = 0f;
-            }
-
-            // --- Filters / slew ---
-            if (requireIntentToMove && desiredDir == 0)
-                cmdSpeed = 0f;
-            else
-            {
-                cmdSpeed = Mathf.Lerp(cmdSpeed, targetVelocity, Time.deltaTime * speedFilter);
-                cmdSpeed = MoveTowardsPerSec(cmdSpeed, targetVelocity, speedSlewPerSec, Time.deltaTime);
-            }
-
-            cmdTurn = Mathf.Lerp(cmdTurn, targetTurn, Time.deltaTime * turnFilter);
-            cmdTurn = MoveTowardsPerSec(cmdTurn, targetTurn, turnSlewPerSec, Time.deltaTime);
-
-            // --- Telemetry ---
-            if (StudyLogger.Instance != null)
-                StudyLogger.Instance.LogTelemetry(Time.deltaTime, segway.transform, dataReceiver, targetVelocity, targetTurn);
-
-            // --- Output to Segway ---
-
-            float outVelocity;
-            if (useDebugSpeed)
-            {
-                // honor debug speed; do NOT idle-brake on neutral lean
-                outVelocity = Mathf.Lerp(segway.getVelosity(), cmdSpeed, Time.deltaTime * smoothing);
-            }
-            else
-            {
-                // normal anti-creep behavior using IMU lean
-                outVelocity = (requireIntentToMove && desiredDir == 0)
-                ? Mathf.MoveTowards(segway.getVelosity(), 0f, idleBrakePerSec * Time.deltaTime)
-                : Mathf.Lerp(segway.getVelosity(), cmdSpeed, Time.deltaTime * smoothing);
-            }
-
-
-            float outTurn = Mathf.Lerp(segway.targetIncline, cmdTurn, Time.deltaTime * smoothing);
-
-            segway.setVelocity(outVelocity);
-            segway.setSideIncline(outTurn);
-
-            // --- HUD ---
-            float feetAge = (footInput != null && footInput.lastFeetUpdateTime > 0f)
-                ? (Time.realtimeSinceStartup - footInput.lastFeetUpdateTime)
-                : -1f;
-
-            if (debugText != null)
-            {
-                debugText.text =
-                    $"src:FootInput age:{feetAge:0.00}s lToe:{lToe:F2} rToe:{rToe:F2} " +
-                    $"lHeel:{lHeel:F2} rHeel:{rHeel:F2}\n" +
-                    $"feet: toeMax {toesMax:F2} heelMax {heelsMax:F2} dir:{desiredDir} mag:{mag:F2}\n" +
-                    $"turnAxis:{steerAxis} yaw:{rawYawDeg:F1}° yn:{yawNorm:F2} spd:{speedNow:F2}\n" +
-                    $"outV:{outVelocity:F2} outT:{outTurn:F1}°";
-            }
-
-            // --- Console log every second ---
-            _statusLogT += Time.deltaTime;
-            if (logStatusToConsole && _statusLogT >= statusLogInterval)
-            {
-                int dictCount = (dataReceiver != null && dataReceiver.footSensors != null) ? dataReceiver.footSensors.Count : 0;
-                Debug.Log($"[SegwayController] feetSrc:{(footInput != null ? "FootInput" : (dictCount > 0 ? "ReceiverDict" : "NONE"))} " +
-                          $"toesMax:{toesMax:F2} heelsMax:{heelsMax:F2} dir:{desiredDir} mag:{mag:F2} dictCount:{dictCount}");
-                _statusLogT = 0f;
-            }
-
-            if (!_feetKeysLogged && dataReceiver != null && dataReceiver.footSensors != null && dataReceiver.footSensors.Count > 0)
-            {
-                try
-                {
-                    var keys = string.Join(",", dataReceiver.footSensors.Keys);
-                    Debug.Log($"[SegwayController] receiver foot keys: {keys}");
-                }
-                catch { }
-                _feetKeysLogged = true;
-            }
         }
-        else // use keyboard
+
+        float targetVelocity = (requireIntentToMove && desiredDir == 0)
+            ? 0f
+            : desiredDir * mag * maxSpeed;
+
+        // --- Speed-scaled steering ---
+        float speedNow = Mathf.Abs(segway.getVelosity());
+        float steerScale = 1f - (1f - minSteerScaleAtHighSpeed) *
+                           Mathf.Clamp01(Mathf.InverseLerp(steerTightenStartSpeed, steerTightenEndSpeed, speedNow));
+
+        bool canApplyLean = allowTurnWhenStationary || (speedNow >= minSpeedForLean) || (Mathf.Abs(targetVelocity) > 0.01f);
+        targetTurn = canApplyLean ? (-yawNorm) * maxTurnAngle * steerScale * turnGain : 0f;
+
+        // --- DEBUG SPEED OVERRIDE ---
+        if (useDebugSpeed)
+            targetVelocity = Mathf.Clamp(debugSpeed, -maxSpeed, maxSpeed);
+
+        // --- Collision guards ---
+        bool bumperBlock = Physics.Raycast(
+            segway.transform.position + Vector3.up * 0.2f,
+            segway.transform.forward,
+            out RaycastHit hit,
+            bumperDistance,
+            environmentLayers,
+            QueryTriggerInteraction.Ignore
+        ) && hit.collider.gameObject.layer != coinsLayer;
+
+        if (bumperBlock && targetVelocity > 0f) targetVelocity = 0f;
+
+        if (Time.time < recoverUntil && lastHitNormal != Vector3.zero)
         {
-            float kbForward = 0f;
-            float kbTurn = 0f;
+            if (Vector3.Dot(segway.transform.forward, lastHitNormal) > 0f && targetVelocity > 0f)
+                targetVelocity = 0f;
+        }
 
-            if (Input.GetKey(KeyCode.W)) kbForward += 1f;
-            if (Input.GetKey(KeyCode.S)) kbForward -= 1f;
+        // --- Filters / slew ---
+        if (requireIntentToMove && desiredDir == 0)
+            cmdSpeed = 0f;
+        else
+        {
+            cmdSpeed = Mathf.Lerp(cmdSpeed, targetVelocity, Time.deltaTime * speedFilter);
+            cmdSpeed = MoveTowardsPerSec(cmdSpeed, targetVelocity, speedSlewPerSec, Time.deltaTime);
+        }
 
-            if (Input.GetKey(KeyCode.D)) kbTurn += 1f;
-            if (Input.GetKey(KeyCode.A)) kbTurn -= 1f;
+        cmdTurn = Mathf.Lerp(cmdTurn, targetTurn, Time.deltaTime * turnFilter);
+        cmdTurn = MoveTowardsPerSec(cmdTurn, targetTurn, turnSlewPerSec, Time.deltaTime);
 
-            float targetVelocity = kbForward * keyboardSpeed;
-            float targetTurn = kbTurn * keyboardTurn;
+        // --- Telemetry ---
+        if (StudyLogger.Instance != null)
+            StudyLogger.Instance.LogTelemetry(Time.deltaTime, segway.transform, dataReceiver, targetVelocity, targetTurn);
 
-            // --- Output to Segway ---
-            float outVelocity = Mathf.Lerp(segway.getVelosity(), targetVelocity, Time.deltaTime * smoothing);
+        // --- Output to Segway ---
 
-            float outTurn = Mathf.Lerp(segway.targetIncline, targetTurn, Time.deltaTime * smoothing);
+        float outVelocity;
+        if (useDebugSpeed)
+        {
+            // honor debug speed; do NOT idle-brake on neutral lean
+            outVelocity = Mathf.Lerp(segway.getVelosity(), cmdSpeed, Time.deltaTime * smoothing);
+        }
+        else
+        {
+            // normal anti-creep behavior using IMU lean
+            outVelocity = (requireIntentToMove && desiredDir == 0)
+            ? Mathf.MoveTowards(segway.getVelosity(), 0f, idleBrakePerSec * Time.deltaTime)
+            : Mathf.Lerp(segway.getVelosity(), cmdSpeed, Time.deltaTime * smoothing);
+        }
 
-            segway.setVelocity(outVelocity);
-            segway.setSideIncline(outTurn);
-        }  
-        
+
+        float outTurn = Mathf.Lerp(segway.targetIncline, cmdTurn, Time.deltaTime * smoothing);
+
+        segway.setVelocity(outVelocity);
+        segway.setSideIncline(outTurn);
+
+        // --- HUD ---
+        float feetAge = (footInput != null && footInput.lastFeetUpdateTime > 0f)
+            ? (Time.realtimeSinceStartup - footInput.lastFeetUpdateTime)
+            : -1f;
+
+        if (debugText != null)
+        {
+            debugText.text =
+                $"src:FootInput age:{feetAge:0.00}s lToe:{lToe:F2} rToe:{rToe:F2} " +
+                $"lHeel:{lHeel:F2} rHeel:{rHeel:F2}\n" +
+                $"feet: toeMax {toesMax:F2} heelMax {heelsMax:F2} dir:{desiredDir} mag:{mag:F2}\n" +
+                $"turnAxis:{steerAxis} yaw:{rawYawDeg:F1}° yn:{yawNorm:F2} spd:{speedNow:F2}\n" +
+                $"outV:{outVelocity:F2} outT:{outTurn:F1}°";
+        }
+
+        // --- Console log every second ---
+        _statusLogT += Time.deltaTime;
+        if (logStatusToConsole && _statusLogT >= statusLogInterval)
+        {
+            int dictCount = (dataReceiver != null && dataReceiver.footSensors != null) ? dataReceiver.footSensors.Count : 0;
+            Debug.Log($"[SegwayController] feetSrc:{(footInput != null ? "FootInput" : (dictCount > 0 ? "ReceiverDict" : "NONE"))} " +
+                      $"toesMax:{toesMax:F2} heelsMax:{heelsMax:F2} dir:{desiredDir} mag:{mag:F2} dictCount:{dictCount}");
+            _statusLogT = 0f;
+        }
+
+        if (!_feetKeysLogged && dataReceiver != null && dataReceiver.footSensors != null && dataReceiver.footSensors.Count > 0)
+        {
+            try
+            {
+                var keys = string.Join(",", dataReceiver.footSensors.Keys);
+                Debug.Log($"[SegwayController] receiver foot keys: {keys}");
+            }
+            catch { }
+            _feetKeysLogged = true;
+        }
     }
+
 
     // ================= Collision =================
     void OnCollisionEnter(Collision collision)
@@ -480,5 +441,5 @@ public class SegwayController : MonoBehaviour
         return Mathf.MoveTowards(current, target, maxDelta);
     }
 
-    
+
 }
