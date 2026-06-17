@@ -130,6 +130,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1370728463}
     m_Modifications:
+    - target: {fileID: 1560684113112638498, guid: 6bbe829e91725564b8c585d9eda59374, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8073234731338339026, guid: 6bbe829e91725564b8c585d9eda59374, type: 3}
       propertyPath: m_Name
       value: MB_Boxwood_Shrubs_01 (7)
@@ -192,6 +196,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 967088414792027039, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5055813000421223480, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
       propertyPath: m_RootOrder
       value: 205
@@ -557,6 +565,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (33)
@@ -619,6 +631,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 2723227677497177601, guid: 6e281be5c24db6f448946274517314a1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3609851477431543624, guid: 6e281be5c24db6f448946274517314a1, type: 3}
       propertyPath: m_RootOrder
       value: 216
@@ -751,6 +767,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 2723227677497177601, guid: 6e281be5c24db6f448946274517314a1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3609851477431543624, guid: 6e281be5c24db6f448946274517314a1, type: 3}
       propertyPath: m_RootOrder
       value: 215
@@ -1007,6 +1027,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 2723227677497177601, guid: 6e281be5c24db6f448946274517314a1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3609851477431543624, guid: 6e281be5c24db6f448946274517314a1, type: 3}
       propertyPath: m_RootOrder
       value: 171
@@ -1333,6 +1357,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (4)
@@ -1753,6 +1781,10 @@ PrefabInstance:
     - target: {fileID: 3175645685538272067, guid: b0897a49fb443334386e45af04beedb6, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Table_02 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5677317927735498133, guid: b0897a49fb443334386e45af04beedb6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0897a49fb443334386e45af04beedb6, type: 3}
@@ -3828,6 +3860,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4607070499184364777, guid: c421afd66055a37419d80228a894958c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c421afd66055a37419d80228a894958c, type: 3}
 --- !u!4 &42011091 stripped
@@ -4057,6 +4093,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2698669564409869479, guid: 75f6dfb5ef50ab040829a162f3d43490, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75f6dfb5ef50ab040829a162f3d43490, type: 3}
 --- !u!4 &42293291 stripped
@@ -4273,6 +4313,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 2723227677497177601, guid: 6e281be5c24db6f448946274517314a1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3609851477431543624, guid: 6e281be5c24db6f448946274517314a1, type: 3}
       propertyPath: m_RootOrder
       value: 155
@@ -4897,6 +4941,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 967088414792027039, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5055813000421223480, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
       propertyPath: m_RootOrder
       value: 204
@@ -5305,6 +5353,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1544098037667992956, guid: 77a6911dfbedff64bb784f090ae5e67b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6312164065185856819, guid: 77a6911dfbedff64bb784f090ae5e67b, type: 3}
       propertyPath: m_RootOrder
       value: 353
@@ -5414,6 +5466,10 @@ PrefabInstance:
     - target: {fileID: 3175645685538272067, guid: b0897a49fb443334386e45af04beedb6, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Table_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 5677317927735498133, guid: b0897a49fb443334386e45af04beedb6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0897a49fb443334386e45af04beedb6, type: 3}
@@ -6495,6 +6551,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 5703140180518893627, guid: 9ddf71cf96a716a4d89381d4e0350bb9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6210357016930945059, guid: 9ddf71cf96a716a4d89381d4e0350bb9, type: 3}
       propertyPath: m_Name
       value: MB_Garbage_Bag_01
@@ -7836,6 +7896,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1370728463}
     m_Modifications:
+    - target: {fileID: 436099723762234363, guid: 21309ae82e0277c40a4326db79b79ca0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5801558204188662518, guid: 21309ae82e0277c40a4326db79b79ca0, type: 3}
       propertyPath: m_Name
       value: MB_Boxwood_Shrubs_05 (5)
@@ -10218,6 +10282,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 4812038328253389921, guid: 3ad0af19c3dc8b941b0b1649879a89f9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5818365871880221837, guid: 3ad0af19c3dc8b941b0b1649879a89f9, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Table_03 (3)
@@ -10854,6 +10922,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 7594234090685051472, guid: 16c5ed6ce83ba4a44a91c049f4bc8816, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8620406809826796236, guid: 16c5ed6ce83ba4a44a91c049f4bc8816, type: 3}
       propertyPath: m_RootOrder
       value: 313
@@ -11060,6 +11132,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 828320115955427038, guid: 9cadeb70d92e74940be683349dc26feb, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4664492835422310730, guid: 9cadeb70d92e74940be683349dc26feb, type: 3}
       propertyPath: m_RootOrder
       value: 381
@@ -11336,6 +11412,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1078921222968654095, guid: 623949f92eac78c4a9d9888c89059a09, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2582706318019978603, guid: 623949f92eac78c4a9d9888c89059a09, type: 3}
       propertyPath: m_Name
       value: MB_Toilet (4)
@@ -11398,6 +11478,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 2723227677497177601, guid: 6e281be5c24db6f448946274517314a1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3609851477431543624, guid: 6e281be5c24db6f448946274517314a1, type: 3}
       propertyPath: m_RootOrder
       value: 223
@@ -12516,6 +12600,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MB_Sink (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 4887735000069172397, guid: 0bcd3db2b3b68e849bb3c33f81d490b8, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bcd3db2b3b68e849bb3c33f81d490b8, type: 3}
 --- !u!4 &139018358 stripped
@@ -12884,6 +12972,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (41)
@@ -13734,6 +13826,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1544098037667992956, guid: 77a6911dfbedff64bb784f090ae5e67b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6312164065185856819, guid: 77a6911dfbedff64bb784f090ae5e67b, type: 3}
       propertyPath: m_RootOrder
       value: 352
@@ -13912,6 +14008,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1145898123451326602, guid: c421afd66055a37419d80228a894958c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4607070499184364777, guid: c421afd66055a37419d80228a894958c, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -14143,6 +14243,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 2034725587689561886, guid: 6cd2ddacd64f0a0479b551702510a63b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3624670469276475940, guid: 6cd2ddacd64f0a0479b551702510a63b, type: 3}
       propertyPath: m_Name
       value: MB_Urn_04
@@ -14322,6 +14426,10 @@ PrefabInstance:
     - target: {fileID: 2279853299320810077, guid: f69d7d0b1d16bfa4daf4b3509e2e4721, type: 3}
       propertyPath: m_Name
       value: MB_Pot_Flower_08 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8277473875266880669, guid: f69d7d0b1d16bfa4daf4b3509e2e4721, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f69d7d0b1d16bfa4daf4b3509e2e4721, type: 3}
@@ -16376,6 +16484,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2267221206733622322, guid: e25b9958b978d234286584bd632ec4ce, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474271419672967847, guid: e25b9958b978d234286584bd632ec4ce, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -20042,6 +20154,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 967088414792027039, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5055813000421223480, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
       propertyPath: m_RootOrder
       value: 249
@@ -20548,6 +20664,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5428795076812575146, guid: e86e40c9ada35a8479f1af51814b7210, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8621534116969087985, guid: e86e40c9ada35a8479f1af51814b7210, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -22206,6 +22326,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MB_Sink (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 4887735000069172397, guid: 0bcd3db2b3b68e849bb3c33f81d490b8, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bcd3db2b3b68e849bb3c33f81d490b8, type: 3}
 --- !u!4 &235174295 stripped
@@ -23304,6 +23428,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 967088414792027039, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5055813000421223480, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
       propertyPath: m_RootOrder
       value: 201
@@ -23694,6 +23822,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (5)
@@ -24617,6 +24749,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1649658744861785499, guid: 533d15373ea1ac2439829df3e7b1533c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4773824925618236503, guid: 533d15373ea1ac2439829df3e7b1533c, type: 3}
       propertyPath: m_RootOrder
       value: 217
@@ -25575,6 +25711,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (9)
@@ -26993,6 +27133,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1947845224852339814, guid: 58a5a20f9f21cf343b93fe8e79a0cfb9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7411126566218482350, guid: 58a5a20f9f21cf343b93fe8e79a0cfb9, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Table_04 (7)
@@ -27239,6 +27383,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 2723227677497177601, guid: 6e281be5c24db6f448946274517314a1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3609851477431543624, guid: 6e281be5c24db6f448946274517314a1, type: 3}
       propertyPath: m_RootOrder
       value: 212
@@ -28104,6 +28252,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4092349372578687246, guid: be0c011ead07fdd4e9c26472e59cb93d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9001551033743354249, guid: be0c011ead07fdd4e9c26472e59cb93d, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -29618,6 +29770,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (8)
@@ -30322,6 +30478,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1047747540041212084, guid: d86678b48f2017c48804b5bd955ea069, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5807026907788544115, guid: d86678b48f2017c48804b5bd955ea069, type: 3}
       propertyPath: m_RootOrder
       value: 408
@@ -30750,6 +30910,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1078921222968654095, guid: 623949f92eac78c4a9d9888c89059a09, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2582706318019978603, guid: 623949f92eac78c4a9d9888c89059a09, type: 3}
       propertyPath: m_Name
       value: MB_Toilet (7)
@@ -31278,6 +31442,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1947845224852339814, guid: 58a5a20f9f21cf343b93fe8e79a0cfb9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7411126566218482350, guid: 58a5a20f9f21cf343b93fe8e79a0cfb9, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Table_04 (5)
@@ -32149,6 +32317,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MB_Cafe_Table_02 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5677317927735498133, guid: b0897a49fb443334386e45af04beedb6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0897a49fb443334386e45af04beedb6, type: 3}
 --- !u!4 &367316483 stripped
@@ -32279,6 +32451,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5472900681931538858, guid: 5555aa6fb2d0c3d4199cf0bcaecbd89c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6513875666361640893, guid: 5555aa6fb2d0c3d4199cf0bcaecbd89c, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -32567,6 +32743,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (6)
@@ -33153,6 +33333,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (14)
@@ -34356,6 +34540,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 2318675590101541405, guid: 931de747c7b45e14591d77bf4cf9f847, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2480827511755850646, guid: 931de747c7b45e14591d77bf4cf9f847, type: 3}
       propertyPath: m_RootOrder
       value: 464
@@ -34606,6 +34794,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1895301247946354547, guid: 40b32b0ea6942f749ac2d6128450ed57, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40b32b0ea6942f749ac2d6128450ed57, type: 3}
 --- !u!4 &402137899 stripped
@@ -34620,6 +34812,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (27)
@@ -37376,6 +37572,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 2877018079256432082, guid: 0792671899724c14ca3c1dbc45f56b4e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6049314999204837225, guid: 0792671899724c14ca3c1dbc45f56b4e, type: 3}
       propertyPath: m_RootOrder
       value: 241
@@ -38889,6 +39089,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1310975447700995369, guid: 7a4c90aa6007b7f4b958b7e9e3bd70dd, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1826065920994567832, guid: 7a4c90aa6007b7f4b958b7e9e3bd70dd, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7209194535708662658, guid: 7a4c90aa6007b7f4b958b7e9e3bd70dd, type: 3}
       propertyPath: m_Name
       value: MB_Fence_A_Angle
@@ -39087,6 +39295,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 315177067311472628, guid: 9bc376159f6c9a04d80fb7db0fb22cf9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1586893408885797496, guid: 9bc376159f6c9a04d80fb7db0fb22cf9, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Table_01 (3)
@@ -39497,6 +39709,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 297752053157835173, guid: 787db6802170c8f449d150eae0d6c17a, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5106168639944340405, guid: 787db6802170c8f449d150eae0d6c17a, type: 3}
       propertyPath: m_Name
       value: MB_Pot_Flower_06
@@ -39774,6 +39990,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7132160453908753465, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (1)
@@ -39918,6 +40142,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 315177067311472628, guid: 9bc376159f6c9a04d80fb7db0fb22cf9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1586893408885797496, guid: 9bc376159f6c9a04d80fb7db0fb22cf9, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Table_01 (10)
@@ -40246,6 +40474,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4092349372578687246, guid: be0c011ead07fdd4e9c26472e59cb93d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9001551033743354249, guid: be0c011ead07fdd4e9c26472e59cb93d, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -42789,6 +43021,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 4812038328253389921, guid: 3ad0af19c3dc8b941b0b1649879a89f9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5818365871880221837, guid: 3ad0af19c3dc8b941b0b1649879a89f9, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Table_03
@@ -43022,6 +43258,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1370728463}
     m_Modifications:
+    - target: {fileID: 1560684113112638498, guid: 6bbe829e91725564b8c585d9eda59374, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8073234731338339026, guid: 6bbe829e91725564b8c585d9eda59374, type: 3}
       propertyPath: m_Name
       value: MB_Boxwood_Shrubs_01 (35)
@@ -43407,6 +43647,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1649658744861785499, guid: 533d15373ea1ac2439829df3e7b1533c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4773824925618236503, guid: 533d15373ea1ac2439829df3e7b1533c, type: 3}
       propertyPath: m_RootOrder
       value: 73
@@ -44184,6 +44428,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1262668240903635114, guid: 700a74221aa8d73419c5487db6cd46ba, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6231156353126965805, guid: 700a74221aa8d73419c5487db6cd46ba, type: 3}
       propertyPath: m_Name
       value: MB_Transformer_Wall_01 (2)
@@ -44458,6 +44706,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 4812038328253389921, guid: 3ad0af19c3dc8b941b0b1649879a89f9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5818365871880221837, guid: 3ad0af19c3dc8b941b0b1649879a89f9, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Table_03
@@ -44893,6 +45145,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MB_Sink (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4887735000069172397, guid: 0bcd3db2b3b68e849bb3c33f81d490b8, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bcd3db2b3b68e849bb3c33f81d490b8, type: 3}
 --- !u!4 &525926293 stripped
@@ -44977,6 +45233,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 4812038328253389921, guid: 3ad0af19c3dc8b941b0b1649879a89f9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5818365871880221837, guid: 3ad0af19c3dc8b941b0b1649879a89f9, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Table_03 (2)
@@ -46026,6 +46286,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1649658744861785499, guid: 533d15373ea1ac2439829df3e7b1533c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4773824925618236503, guid: 533d15373ea1ac2439829df3e7b1533c, type: 3}
       propertyPath: m_RootOrder
       value: 219
@@ -46467,6 +46731,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 315177067311472628, guid: 9bc376159f6c9a04d80fb7db0fb22cf9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1586893408885797496, guid: 9bc376159f6c9a04d80fb7db0fb22cf9, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Table_01 (12)
@@ -47623,6 +47891,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (1)
@@ -47962,6 +48234,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 4812038328253389921, guid: 3ad0af19c3dc8b941b0b1649879a89f9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5818365871880221837, guid: 3ad0af19c3dc8b941b0b1649879a89f9, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Table_03 (1)
@@ -48961,6 +49237,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (7)
@@ -49615,6 +49895,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 967088414792027039, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5055813000421223480, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
       propertyPath: m_RootOrder
       value: 256
@@ -50906,6 +51190,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (32)
@@ -51261,6 +51549,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (34)
@@ -51471,6 +51763,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2094829429349860092, guid: cb6fec2a31ccb9645ba0d3db93b8a4ff, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6287592715791315554, guid: cb6fec2a31ccb9645ba0d3db93b8a4ff, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -52253,6 +52549,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1101450016705883582, guid: 32f244c3269777741bec4c2e4b123482, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1357172598771798961, guid: 32f244c3269777741bec4c2e4b123482, type: 3}
       propertyPath: m_RootOrder
       value: 119
@@ -52853,6 +53153,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7811976972456571615, guid: 8b1ce989a3744d544837511915adf903, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b1ce989a3744d544837511915adf903, type: 3}
 --- !u!4 &606732673 stripped
@@ -52915,6 +53219,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MB_Cafe_Table_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5677317927735498133, guid: b0897a49fb443334386e45af04beedb6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0897a49fb443334386e45af04beedb6, type: 3}
 --- !u!4 &606878980 stripped
@@ -52929,6 +53237,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 967088414792027039, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5055813000421223480, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
       propertyPath: m_RootOrder
       value: 243
@@ -53750,6 +54062,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1649658744861785499, guid: 533d15373ea1ac2439829df3e7b1533c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4773824925618236503, guid: 533d15373ea1ac2439829df3e7b1533c, type: 3}
       propertyPath: m_RootOrder
       value: 224
@@ -54073,6 +54389,10 @@ PrefabInstance:
     - target: {fileID: 3175645685538272067, guid: b0897a49fb443334386e45af04beedb6, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Table_02 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5677317927735498133, guid: b0897a49fb443334386e45af04beedb6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0897a49fb443334386e45af04beedb6, type: 3}
@@ -54509,6 +54829,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (15)
@@ -54783,6 +55107,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MB_Sink (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4887735000069172397, guid: 0bcd3db2b3b68e849bb3c33f81d490b8, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bcd3db2b3b68e849bb3c33f81d490b8, type: 3}
 --- !u!4 &624053657 stripped
@@ -54909,6 +55237,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4092349372578687246, guid: be0c011ead07fdd4e9c26472e59cb93d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9001551033743354249, guid: be0c011ead07fdd4e9c26472e59cb93d, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -55456,6 +55788,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1349024239227565027, guid: 02151e3ff989d6a45804d6fefeca55f6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7001623949815470357, guid: 02151e3ff989d6a45804d6fefeca55f6, type: 3}
       propertyPath: m_RootOrder
       value: 110
@@ -55564,6 +55900,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3387959998983602177, guid: 8b1ce989a3744d544837511915adf903, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811976972456571615, guid: 8b1ce989a3744d544837511915adf903, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -56050,6 +56390,10 @@ PrefabInstance:
     - target: {fileID: 3175645685538272067, guid: b0897a49fb443334386e45af04beedb6, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Table_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5677317927735498133, guid: b0897a49fb443334386e45af04beedb6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0897a49fb443334386e45af04beedb6, type: 3}
@@ -56694,6 +57038,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 967088414792027039, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5055813000421223480, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
       propertyPath: m_RootOrder
       value: 206
@@ -56756,6 +57104,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 2198233349138847535, guid: 3c1290242e8fa494486c0a25a162355c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2417716214166558098, guid: 3c1290242e8fa494486c0a25a162355c, type: 3}
       propertyPath: m_Name
       value: MB_Pot_Flower_04 (1)
@@ -57075,6 +57427,10 @@ PrefabInstance:
     - target: {fileID: 5561247886330022534, guid: 6427227989d0b1c4daf3d0417cbe2d41, type: 3}
       propertyPath: m_Name
       value: MB_Yellow_Pillar (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732994482427990093, guid: 6427227989d0b1c4daf3d0417cbe2d41, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6427227989d0b1c4daf3d0417cbe2d41, type: 3}
@@ -57451,6 +57807,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 2723227677497177601, guid: 6e281be5c24db6f448946274517314a1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3609851477431543624, guid: 6e281be5c24db6f448946274517314a1, type: 3}
       propertyPath: m_RootOrder
       value: 214
@@ -58491,6 +58851,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 967088414792027039, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5055813000421223480, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
       propertyPath: m_RootOrder
       value: 244
@@ -59130,6 +59494,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5428795076812575146, guid: e86e40c9ada35a8479f1af51814b7210, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8621534116969087985, guid: e86e40c9ada35a8479f1af51814b7210, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -60192,6 +60560,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1370728463}
     m_Modifications:
+    - target: {fileID: 436099723762234363, guid: 21309ae82e0277c40a4326db79b79ca0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5801558204188662518, guid: 21309ae82e0277c40a4326db79b79ca0, type: 3}
       propertyPath: m_Name
       value: MB_Boxwood_Shrubs_05 (4)
@@ -61276,6 +61648,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MB_Sink
       objectReference: {fileID: 0}
+    - target: {fileID: 4887735000069172397, guid: 0bcd3db2b3b68e849bb3c33f81d490b8, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bcd3db2b3b68e849bb3c33f81d490b8, type: 3}
 --- !u!4 &694811151 stripped
@@ -61834,6 +62210,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 2723227677497177601, guid: 6e281be5c24db6f448946274517314a1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3609851477431543624, guid: 6e281be5c24db6f448946274517314a1, type: 3}
       propertyPath: m_RootOrder
       value: 152
@@ -62102,6 +62482,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 828320115955427038, guid: 9cadeb70d92e74940be683349dc26feb, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4664492835422310730, guid: 9cadeb70d92e74940be683349dc26feb, type: 3}
       propertyPath: m_RootOrder
       value: 373
@@ -62875,6 +63259,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4607070499184364777, guid: c421afd66055a37419d80228a894958c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c421afd66055a37419d80228a894958c, type: 3}
 --- !u!4 &715482703 stripped
@@ -62936,6 +63324,10 @@ PrefabInstance:
     - target: {fileID: 3175645685538272067, guid: b0897a49fb443334386e45af04beedb6, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Table_02 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5677317927735498133, guid: b0897a49fb443334386e45af04beedb6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0897a49fb443334386e45af04beedb6, type: 3}
@@ -63137,6 +63529,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1145898123451326602, guid: c421afd66055a37419d80228a894958c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4607070499184364777, guid: c421afd66055a37419d80228a894958c, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -63450,6 +63846,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1883653607055051169, guid: 22b25ce2980ea594da3002823da227dd, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7376887870770121191, guid: 22b25ce2980ea594da3002823da227dd, type: 3}
       propertyPath: m_Name
       value: MB_Pot_Flower_02 (1)
@@ -63738,6 +64138,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1101450016705883582, guid: 32f244c3269777741bec4c2e4b123482, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1357172598771798961, guid: 32f244c3269777741bec4c2e4b123482, type: 3}
       propertyPath: m_RootOrder
       value: 120
@@ -64193,6 +64597,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7811976972456571615, guid: 8b1ce989a3744d544837511915adf903, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b1ce989a3744d544837511915adf903, type: 3}
 --- !u!4 &736802010 stripped
@@ -64351,6 +64759,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1047747540041212084, guid: d86678b48f2017c48804b5bd955ea069, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5807026907788544115, guid: d86678b48f2017c48804b5bd955ea069, type: 3}
       propertyPath: m_RootOrder
       value: 406
@@ -65333,6 +65745,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3350178921614474475, guid: 8c93b9b64ceaffa43b059230498e2e71, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4969456017672273803, guid: 8c93b9b64ceaffa43b059230498e2e71, type: 3}
       propertyPath: m_RootOrder
       value: 380
@@ -65748,6 +66164,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 315177067311472628, guid: 9bc376159f6c9a04d80fb7db0fb22cf9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1586893408885797496, guid: 9bc376159f6c9a04d80fb7db0fb22cf9, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Table_01 (5)
@@ -65922,6 +66342,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1145898123451326602, guid: c421afd66055a37419d80228a894958c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4607070499184364777, guid: c421afd66055a37419d80228a894958c, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -68018,6 +68442,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1947845224852339814, guid: 58a5a20f9f21cf343b93fe8e79a0cfb9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7411126566218482350, guid: 58a5a20f9f21cf343b93fe8e79a0cfb9, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Table_04 (2)
@@ -68570,6 +68998,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1262668240903635114, guid: 700a74221aa8d73419c5487db6cd46ba, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6231156353126965805, guid: 700a74221aa8d73419c5487db6cd46ba, type: 3}
       propertyPath: m_Name
       value: MB_Transformer_Wall_01 (4)
@@ -69333,6 +69765,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 967088414792027039, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5055813000421223480, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
       propertyPath: m_RootOrder
       value: 199
@@ -71906,6 +72342,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1262668240903635114, guid: 700a74221aa8d73419c5487db6cd46ba, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6231156353126965805, guid: 700a74221aa8d73419c5487db6cd46ba, type: 3}
       propertyPath: m_Name
       value: MB_Transformer_Wall_01 (2)
@@ -72562,6 +73002,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (19)
@@ -75013,6 +75457,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (35)
@@ -75262,6 +75710,10 @@ PrefabInstance:
     - target: {fileID: 5561247886330022534, guid: 6427227989d0b1c4daf3d0417cbe2d41, type: 3}
       propertyPath: m_Name
       value: MB_Yellow_Pillar (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732994482427990093, guid: 6427227989d0b1c4daf3d0417cbe2d41, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6427227989d0b1c4daf3d0417cbe2d41, type: 3}
@@ -77399,6 +77851,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 967088414792027039, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5055813000421223480, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
       propertyPath: m_RootOrder
       value: 200
@@ -77507,6 +77963,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2256452310049969694, guid: 75f6dfb5ef50ab040829a162f3d43490, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2698669564409869479, guid: 75f6dfb5ef50ab040829a162f3d43490, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -77667,6 +78127,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1544098037667992956, guid: 77a6911dfbedff64bb784f090ae5e67b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6312164065185856819, guid: 77a6911dfbedff64bb784f090ae5e67b, type: 3}
       propertyPath: m_RootOrder
       value: 342
@@ -77877,6 +78341,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (30)
@@ -79933,6 +80401,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MB_Pot_Flower_08
       objectReference: {fileID: 0}
+    - target: {fileID: 8277473875266880669, guid: f69d7d0b1d16bfa4daf4b3509e2e4721, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f69d7d0b1d16bfa4daf4b3509e2e4721, type: 3}
 --- !u!4 &865570344 stripped
@@ -79947,6 +80419,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 830789866917626912, guid: acb6b418c7898524bbcc8151acfe1a2e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2668347288987844224, guid: acb6b418c7898524bbcc8151acfe1a2e, type: 3}
       propertyPath: m_Name
       value: MB_Dumbbells
@@ -80009,6 +80485,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 967088414792027039, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5055813000421223480, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
       propertyPath: m_RootOrder
       value: 197
@@ -81844,6 +82324,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 2723227677497177601, guid: 6e281be5c24db6f448946274517314a1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3609851477431543624, guid: 6e281be5c24db6f448946274517314a1, type: 3}
       propertyPath: m_RootOrder
       value: 157
@@ -81952,6 +82436,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2094829429349860092, guid: cb6fec2a31ccb9645ba0d3db93b8a4ff, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6287592715791315554, guid: cb6fec2a31ccb9645ba0d3db93b8a4ff, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -82344,6 +82832,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1262668240903635114, guid: 700a74221aa8d73419c5487db6cd46ba, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6231156353126965805, guid: 700a74221aa8d73419c5487db6cd46ba, type: 3}
       propertyPath: m_Name
       value: MB_Transformer_Wall_01 (1)
@@ -82732,6 +83224,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1145898123451326602, guid: c421afd66055a37419d80228a894958c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4607070499184364777, guid: c421afd66055a37419d80228a894958c, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -83641,6 +84137,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (22)
@@ -85148,6 +85648,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (3)
@@ -85210,6 +85714,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 2723227677497177601, guid: 6e281be5c24db6f448946274517314a1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3609851477431543624, guid: 6e281be5c24db6f448946274517314a1, type: 3}
       propertyPath: m_RootOrder
       value: 259
@@ -85515,6 +86023,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 967088414792027039, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5055813000421223480, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
       propertyPath: m_RootOrder
       value: 246
@@ -85686,6 +86198,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 967088414792027039, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5055813000421223480, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
       propertyPath: m_RootOrder
       value: 253
@@ -85794,6 +86310,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2094829429349860092, guid: cb6fec2a31ccb9645ba0d3db93b8a4ff, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6287592715791315554, guid: cb6fec2a31ccb9645ba0d3db93b8a4ff, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -86136,6 +86656,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1101450016705883582, guid: 32f244c3269777741bec4c2e4b123482, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1357172598771798961, guid: 32f244c3269777741bec4c2e4b123482, type: 3}
       propertyPath: m_RootOrder
       value: 121
@@ -86708,6 +87232,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 627078884084658404, guid: 40b32b0ea6942f749ac2d6128450ed57, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1895301247946354547, guid: 40b32b0ea6942f749ac2d6128450ed57, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -87804,6 +88332,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MB_Sink (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4887735000069172397, guid: 0bcd3db2b3b68e849bb3c33f81d490b8, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bcd3db2b3b68e849bb3c33f81d490b8, type: 3}
 --- !u!4 &963616525 stripped
@@ -88030,6 +88562,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1262668240903635114, guid: 700a74221aa8d73419c5487db6cd46ba, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6231156353126965805, guid: 700a74221aa8d73419c5487db6cd46ba, type: 3}
       propertyPath: m_Name
       value: MB_Transformer_Wall_01
@@ -89179,6 +89715,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (23)
@@ -91189,6 +91729,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MB_Sink (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4887735000069172397, guid: 0bcd3db2b3b68e849bb3c33f81d490b8, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bcd3db2b3b68e849bb3c33f81d490b8, type: 3}
 --- !u!4 &995778777 stripped
@@ -91203,6 +91747,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1947845224852339814, guid: 58a5a20f9f21cf343b93fe8e79a0cfb9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7411126566218482350, guid: 58a5a20f9f21cf343b93fe8e79a0cfb9, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Table_04
@@ -91444,6 +91992,10 @@ PrefabInstance:
     - target: {fileID: 2136514228867130276, guid: 0bcd3db2b3b68e849bb3c33f81d490b8, type: 3}
       propertyPath: m_Name
       value: MB_Sink (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4887735000069172397, guid: 0bcd3db2b3b68e849bb3c33f81d490b8, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bcd3db2b3b68e849bb3c33f81d490b8, type: 3}
@@ -92066,6 +92618,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 2723227677497177601, guid: 6e281be5c24db6f448946274517314a1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3609851477431543624, guid: 6e281be5c24db6f448946274517314a1, type: 3}
       propertyPath: m_RootOrder
       value: 261
@@ -93469,6 +94025,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1883653607055051169, guid: 22b25ce2980ea594da3002823da227dd, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7376887870770121191, guid: 22b25ce2980ea594da3002823da227dd, type: 3}
       propertyPath: m_Name
       value: MB_Pot_Flower_02
@@ -94271,6 +94831,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MB_Yellow_Pillar (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 8732994482427990093, guid: 6427227989d0b1c4daf3d0417cbe2d41, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6427227989d0b1c4daf3d0417cbe2d41, type: 3}
 --- !u!4 &1040638771 stripped
@@ -94332,6 +94896,10 @@ PrefabInstance:
     - target: {fileID: 2136514228867130276, guid: 0bcd3db2b3b68e849bb3c33f81d490b8, type: 3}
       propertyPath: m_Name
       value: MB_Sink (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4887735000069172397, guid: 0bcd3db2b3b68e849bb3c33f81d490b8, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bcd3db2b3b68e849bb3c33f81d490b8, type: 3}
@@ -96395,6 +96963,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1649658744861785499, guid: 533d15373ea1ac2439829df3e7b1533c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4773824925618236503, guid: 533d15373ea1ac2439829df3e7b1533c, type: 3}
       propertyPath: m_RootOrder
       value: 257
@@ -97394,6 +97966,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1101450016705883582, guid: 32f244c3269777741bec4c2e4b123482, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1357172598771798961, guid: 32f244c3269777741bec4c2e4b123482, type: 3}
       propertyPath: m_RootOrder
       value: 122
@@ -97563,6 +98139,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (4)
@@ -97769,6 +98349,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1078921222968654095, guid: 623949f92eac78c4a9d9888c89059a09, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2582706318019978603, guid: 623949f92eac78c4a9d9888c89059a09, type: 3}
       propertyPath: m_Name
       value: MB_Toilet (5)
@@ -98055,6 +98639,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1370728463}
     m_Modifications:
+    - target: {fileID: 1362686645700828495, guid: 7c8d4f51095654544baaf41ad52826ca, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7019464480311055990, guid: 7c8d4f51095654544baaf41ad52826ca, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -99120,6 +99708,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (36)
@@ -99506,6 +100098,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 2723227677497177601, guid: 6e281be5c24db6f448946274517314a1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3609851477431543624, guid: 6e281be5c24db6f448946274517314a1, type: 3}
       propertyPath: m_RootOrder
       value: 166
@@ -99937,6 +100533,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 967088414792027039, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5055813000421223480, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
       propertyPath: m_RootOrder
       value: 202
@@ -100201,6 +100801,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 967088414792027039, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5055813000421223480, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
       propertyPath: m_RootOrder
       value: 255
@@ -101481,6 +102085,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (11)
@@ -101613,6 +102221,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (20)
@@ -103207,6 +103819,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1370728463}
     m_Modifications:
+    - target: {fileID: 1560684113112638498, guid: 6bbe829e91725564b8c585d9eda59374, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8073234731338339026, guid: 6bbe829e91725564b8c585d9eda59374, type: 3}
       propertyPath: m_Name
       value: MB_Boxwood_Shrubs_01 (38)
@@ -105549,6 +106165,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 2723227677497177601, guid: 6e281be5c24db6f448946274517314a1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3609851477431543624, guid: 6e281be5c24db6f448946274517314a1, type: 3}
       propertyPath: m_RootOrder
       value: 168
@@ -105968,6 +106588,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (21)
@@ -106404,6 +107028,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1078921222968654095, guid: 623949f92eac78c4a9d9888c89059a09, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2582706318019978603, guid: 623949f92eac78c4a9d9888c89059a09, type: 3}
       propertyPath: m_Name
       value: MB_Toilet (6)
@@ -106963,6 +107591,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7511460791501863113, guid: b062586aa65f4d94a806b55434df243e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b062586aa65f4d94a806b55434df243e, type: 3}
 --- !u!4 &1174911199 stripped
@@ -107151,6 +107783,10 @@ PrefabInstance:
     - target: {fileID: 1714789853489032146, guid: 4ceba10ed708c4c4f8b5aaa54ce54778, type: 3}
       propertyPath: m_Name
       value: MB_Bush_03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1764486544221920049, guid: 4ceba10ed708c4c4f8b5aaa54ce54778, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2055885420756480360, guid: 4ceba10ed708c4c4f8b5aaa54ce54778, type: 3}
       propertyPath: m_RootOrder
@@ -108128,6 +108764,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 4812038328253389921, guid: 3ad0af19c3dc8b941b0b1649879a89f9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5818365871880221837, guid: 3ad0af19c3dc8b941b0b1649879a89f9, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Table_03
@@ -108238,6 +108878,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MB_Sink (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 4887735000069172397, guid: 0bcd3db2b3b68e849bb3c33f81d490b8, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bcd3db2b3b68e849bb3c33f81d490b8, type: 3}
 --- !u!4 &1188628666 stripped
@@ -108326,6 +108970,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2549786559423979146, guid: 3872000772f0e314188de00175f43656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2642130344809571807, guid: 3872000772f0e314188de00175f43656, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2893978312986084400, guid: 3872000772f0e314188de00175f43656, type: 3}
@@ -108987,6 +109635,10 @@ PrefabInstance:
     - target: {fileID: 1714789853489032146, guid: 4ceba10ed708c4c4f8b5aaa54ce54778, type: 3}
       propertyPath: m_Name
       value: MB_Bush_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 1764486544221920049, guid: 4ceba10ed708c4c4f8b5aaa54ce54778, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2055885420756480360, guid: 4ceba10ed708c4c4f8b5aaa54ce54778, type: 3}
       propertyPath: m_RootOrder
@@ -110457,6 +111109,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (28)
@@ -110585,6 +111241,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 315177067311472628, guid: 9bc376159f6c9a04d80fb7db0fb22cf9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1586893408885797496, guid: 9bc376159f6c9a04d80fb7db0fb22cf9, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Table_01 (6)
@@ -110917,6 +111577,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 2723227677497177601, guid: 6e281be5c24db6f448946274517314a1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3609851477431543624, guid: 6e281be5c24db6f448946274517314a1, type: 3}
       propertyPath: m_RootOrder
       value: 159
@@ -110979,6 +111643,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (3)
@@ -111788,6 +112456,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (7)
@@ -111881,6 +112553,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 315177067311472628, guid: 9bc376159f6c9a04d80fb7db0fb22cf9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1586893408885797496, guid: 9bc376159f6c9a04d80fb7db0fb22cf9, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Table_01 (4)
@@ -112199,6 +112875,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 967088414792027039, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5055813000421223480, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
       propertyPath: m_RootOrder
       value: 203
@@ -113317,6 +113997,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (25)
@@ -114182,6 +114866,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1078921222968654095, guid: 623949f92eac78c4a9d9888c89059a09, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2582706318019978603, guid: 623949f92eac78c4a9d9888c89059a09, type: 3}
       propertyPath: m_Name
       value: MB_Toilet (9)
@@ -114244,6 +114932,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1883653607055051169, guid: 22b25ce2980ea594da3002823da227dd, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7376887870770121191, guid: 22b25ce2980ea594da3002823da227dd, type: 3}
       propertyPath: m_Name
       value: MB_Pot_Flower_02
@@ -114646,6 +115338,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9001551033743354249, guid: be0c011ead07fdd4e9c26472e59cb93d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be0c011ead07fdd4e9c26472e59cb93d, type: 3}
 --- !u!4 &1265529266 stripped
@@ -115017,6 +115713,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (13)
@@ -115079,6 +115779,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 7594234090685051472, guid: 16c5ed6ce83ba4a44a91c049f4bc8816, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8620406809826796236, guid: 16c5ed6ce83ba4a44a91c049f4bc8816, type: 3}
       propertyPath: m_RootOrder
       value: 113
@@ -115567,6 +116271,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (40)
@@ -115676,6 +116384,10 @@ PrefabInstance:
     - target: {fileID: 2279853299320810077, guid: f69d7d0b1d16bfa4daf4b3509e2e4721, type: 3}
       propertyPath: m_Name
       value: MB_Pot_Flower_08 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8277473875266880669, guid: f69d7d0b1d16bfa4daf4b3509e2e4721, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f69d7d0b1d16bfa4daf4b3509e2e4721, type: 3}
@@ -117190,6 +117902,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 2659475085641847740, guid: bd7ca16c7eb8db741bab969b5db26ff3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6283315539289766118, guid: bd7ca16c7eb8db741bab969b5db26ff3, type: 3}
       propertyPath: m_Name
       value: MB_Pot_Flower_01 (2)
@@ -117318,6 +118034,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (2)
@@ -117380,6 +118100,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7132160453908753465, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (2)
@@ -117534,6 +118262,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MB_Sink (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 4887735000069172397, guid: 0bcd3db2b3b68e849bb3c33f81d490b8, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bcd3db2b3b68e849bb3c33f81d490b8, type: 3}
 --- !u!4 &1310602045 stripped
@@ -117548,6 +118280,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1370728463}
     m_Modifications:
+    - target: {fileID: 1560684113112638498, guid: 6bbe829e91725564b8c585d9eda59374, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8073234731338339026, guid: 6bbe829e91725564b8c585d9eda59374, type: 3}
       propertyPath: m_Name
       value: MB_Boxwood_Shrubs_01 (4)
@@ -118802,6 +119538,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1721132028374120189, guid: dcdd0dfa3128b9a40ba81f801ec90ee0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2159093891066599744, guid: dcdd0dfa3128b9a40ba81f801ec90ee0, type: 3}
       propertyPath: m_Name
       value: MB_Transformer_01 (1)
@@ -120040,6 +120780,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1649658744861785499, guid: 533d15373ea1ac2439829df3e7b1533c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4773824925618236503, guid: 533d15373ea1ac2439829df3e7b1533c, type: 3}
       propertyPath: m_RootOrder
       value: 221
@@ -120242,6 +120986,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (8)
@@ -121210,6 +121958,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 967088414792027039, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5055813000421223480, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
       propertyPath: m_RootOrder
       value: 251
@@ -121970,6 +122722,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (38)
@@ -122078,6 +122834,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6652531771387442289, guid: d1546e0322fa531469fc16ee47154461, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8844679716370804625, guid: d1546e0322fa531469fc16ee47154461, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -123457,6 +124217,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1262668240903635114, guid: 700a74221aa8d73419c5487db6cd46ba, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6231156353126965805, guid: 700a74221aa8d73419c5487db6cd46ba, type: 3}
       propertyPath: m_Name
       value: MB_Transformer_Wall_01
@@ -123711,6 +124475,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7811976972456571615, guid: 8b1ce989a3744d544837511915adf903, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b1ce989a3744d544837511915adf903, type: 3}
 --- !u!4 &1372979598 stripped
@@ -123861,6 +124629,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (18)
@@ -124201,6 +124973,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1883653607055051169, guid: 22b25ce2980ea594da3002823da227dd, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7376887870770121191, guid: 22b25ce2980ea594da3002823da227dd, type: 3}
       propertyPath: m_Name
       value: MB_Pot_Flower_02 (1)
@@ -124874,6 +125650,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 2723227677497177601, guid: 6e281be5c24db6f448946274517314a1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3609851477431543624, guid: 6e281be5c24db6f448946274517314a1, type: 3}
       propertyPath: m_RootOrder
       value: 222
@@ -124936,6 +125716,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 2723227677497177601, guid: 6e281be5c24db6f448946274517314a1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3609851477431543624, guid: 6e281be5c24db6f448946274517314a1, type: 3}
       propertyPath: m_RootOrder
       value: 150
@@ -125138,6 +125922,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 297752053157835173, guid: 787db6802170c8f449d150eae0d6c17a, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5106168639944340405, guid: 787db6802170c8f449d150eae0d6c17a, type: 3}
       propertyPath: m_Name
       value: MB_Pot_Flower_06 (1)
@@ -125959,6 +126747,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 830789866917626912, guid: acb6b418c7898524bbcc8151acfe1a2e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2668347288987844224, guid: acb6b418c7898524bbcc8151acfe1a2e, type: 3}
       propertyPath: m_Name
       value: MB_Dumbbells (1)
@@ -126469,6 +127261,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (39)
@@ -126716,6 +127512,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1078921222968654095, guid: 623949f92eac78c4a9d9888c89059a09, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2582706318019978603, guid: 623949f92eac78c4a9d9888c89059a09, type: 3}
       propertyPath: m_Name
       value: MB_Toilet (3)
@@ -127925,6 +128725,10 @@ PrefabInstance:
     - target: {fileID: 7753414066889193732, guid: f4cac23f6d05e154586fd4d1da381215, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 8084605603130572587, guid: f4cac23f6d05e154586fd4d1da381215, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4cac23f6d05e154586fd4d1da381215, type: 3}
@@ -131317,6 +132121,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1947845224852339814, guid: 58a5a20f9f21cf343b93fe8e79a0cfb9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7411126566218482350, guid: 58a5a20f9f21cf343b93fe8e79a0cfb9, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Table_04 (6)
@@ -131488,6 +132296,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MB_Cafe_Menu_03 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3236241718182841384, guid: 17a53a0d7a547b4468c12b3eef36bc6a, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3411570304715401009, guid: 17a53a0d7a547b4468c12b3eef36bc6a, type: 3}
       propertyPath: m_RootOrder
       value: 58
@@ -131546,6 +132358,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (5)
@@ -133001,6 +133817,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1078921222968654095, guid: 623949f92eac78c4a9d9888c89059a09, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2582706318019978603, guid: 623949f92eac78c4a9d9888c89059a09, type: 3}
       propertyPath: m_Name
       value: MB_Toilet
@@ -134586,6 +135406,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 601982974037509572, guid: 7180f6d95cae3ff4cb3f66d085cc2510, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3964126066023186809, guid: 7180f6d95cae3ff4cb3f66d085cc2510, type: 3}
       propertyPath: m_RootOrder
       value: 111
@@ -134785,6 +135609,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 967088414792027039, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5055813000421223480, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
       propertyPath: m_RootOrder
       value: 254
@@ -135809,6 +136637,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1262668240903635114, guid: 700a74221aa8d73419c5487db6cd46ba, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6231156353126965805, guid: 700a74221aa8d73419c5487db6cd46ba, type: 3}
       propertyPath: m_Name
       value: MB_Transformer_Wall_01 (3)
@@ -136098,6 +136930,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1370728463}
     m_Modifications:
+    - target: {fileID: 2149782205606303582, guid: d8fc874fe763c074798676c93a0ff118, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3529158324702742690, guid: d8fc874fe763c074798676c93a0ff118, type: 3}
       propertyPath: m_Name
       value: MB_Boxwood_Shrubs_04 (1)
@@ -136588,6 +137424,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 2659475085641847740, guid: bd7ca16c7eb8db741bab969b5db26ff3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6283315539289766118, guid: bd7ca16c7eb8db741bab969b5db26ff3, type: 3}
       propertyPath: m_Name
       value: MB_Pot_Flower_01 (3)
@@ -137522,6 +138362,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5474271419672967847, guid: e25b9958b978d234286584bd632ec4ce, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e25b9958b978d234286584bd632ec4ce, type: 3}
 --- !u!4 &1532578152 stripped
@@ -137833,6 +138677,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02
@@ -138612,6 +139460,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1047747540041212084, guid: d86678b48f2017c48804b5bd955ea069, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5807026907788544115, guid: d86678b48f2017c48804b5bd955ea069, type: 3}
       propertyPath: m_RootOrder
       value: 407
@@ -140446,6 +141298,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (31)
@@ -140658,6 +141514,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (12)
@@ -140720,6 +141580,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 2723227677497177601, guid: 6e281be5c24db6f448946274517314a1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3609851477431543624, guid: 6e281be5c24db6f448946274517314a1, type: 3}
       propertyPath: m_RootOrder
       value: 218
@@ -140897,6 +141761,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 967088414792027039, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5055813000421223480, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
       propertyPath: m_RootOrder
       value: 198
@@ -140959,6 +141827,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7132160453908753465, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (3)
@@ -141310,6 +142186,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1370728463}
     m_Modifications:
+    - target: {fileID: 1560684113112638498, guid: 6bbe829e91725564b8c585d9eda59374, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8073234731338339026, guid: 6bbe829e91725564b8c585d9eda59374, type: 3}
       propertyPath: m_Name
       value: MB_Boxwood_Shrubs_01 (36)
@@ -144797,6 +145677,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (37)
@@ -146910,6 +147794,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6287592715791315554, guid: cb6fec2a31ccb9645ba0d3db93b8a4ff, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb6fec2a31ccb9645ba0d3db93b8a4ff, type: 3}
 --- !u!4 &1654550814 stripped
@@ -147072,6 +147960,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 315177067311472628, guid: 9bc376159f6c9a04d80fb7db0fb22cf9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1586893408885797496, guid: 9bc376159f6c9a04d80fb7db0fb22cf9, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Table_01 (7)
@@ -147336,6 +148228,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (17)
@@ -147708,6 +148604,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1101450016705883582, guid: 32f244c3269777741bec4c2e4b123482, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1357172598771798961, guid: 32f244c3269777741bec4c2e4b123482, type: 3}
       propertyPath: m_RootOrder
       value: 118
@@ -147884,6 +148784,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5195290100121482618, guid: 1bc5be9faeacc6c429a8497bb7a116d7, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bc5be9faeacc6c429a8497bb7a116d7, type: 3}
 --- !u!4 &1669119627 stripped
@@ -147898,6 +148802,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02
@@ -147960,6 +148868,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1544098037667992956, guid: 77a6911dfbedff64bb784f090ae5e67b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6312164065185856819, guid: 77a6911dfbedff64bb784f090ae5e67b, type: 3}
       propertyPath: m_RootOrder
       value: 334
@@ -148616,6 +149528,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1078921222968654095, guid: 623949f92eac78c4a9d9888c89059a09, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2582706318019978603, guid: 623949f92eac78c4a9d9888c89059a09, type: 3}
       propertyPath: m_Name
       value: MB_Toilet (8)
@@ -148856,6 +149772,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1947845224852339814, guid: 58a5a20f9f21cf343b93fe8e79a0cfb9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7411126566218482350, guid: 58a5a20f9f21cf343b93fe8e79a0cfb9, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Table_04 (3)
@@ -150848,6 +151768,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 4812038328253389921, guid: 3ad0af19c3dc8b941b0b1649879a89f9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5818365871880221837, guid: 3ad0af19c3dc8b941b0b1649879a89f9, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Table_03 (1)
@@ -151072,6 +151996,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1047747540041212084, guid: d86678b48f2017c48804b5bd955ea069, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5807026907788544115, guid: d86678b48f2017c48804b5bd955ea069, type: 3}
       propertyPath: m_RootOrder
       value: 394
@@ -151750,6 +152678,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1947845224852339814, guid: 58a5a20f9f21cf343b93fe8e79a0cfb9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7411126566218482350, guid: 58a5a20f9f21cf343b93fe8e79a0cfb9, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Table_04 (1)
@@ -152432,6 +153364,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4549308263524473226, guid: 9703ea9923451794c9e1e14955970b6d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7124966101522447002, guid: 9703ea9923451794c9e1e14955970b6d, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -154103,6 +155039,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (29)
@@ -154407,6 +155347,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 967088414792027039, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5055813000421223480, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
       propertyPath: m_RootOrder
       value: 196
@@ -155516,6 +156460,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2256452310049969694, guid: 75f6dfb5ef50ab040829a162f3d43490, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2698669564409869479, guid: 75f6dfb5ef50ab040829a162f3d43490, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -159463,6 +160411,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MB_Cafe_Table_02 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5677317927735498133, guid: b0897a49fb443334386e45af04beedb6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0897a49fb443334386e45af04beedb6, type: 3}
 --- !u!4 &1789714369 stripped
@@ -159547,6 +160499,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 2723227677497177601, guid: 6e281be5c24db6f448946274517314a1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3609851477431543624, guid: 6e281be5c24db6f448946274517314a1, type: 3}
       propertyPath: m_RootOrder
       value: 260
@@ -160430,6 +161386,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (10)
@@ -160492,6 +161452,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1370728463}
     m_Modifications:
+    - target: {fileID: 436099723762234363, guid: 21309ae82e0277c40a4326db79b79ca0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5801558204188662518, guid: 21309ae82e0277c40a4326db79b79ca0, type: 3}
       propertyPath: m_Name
       value: MB_Boxwood_Shrubs_05 (7)
@@ -160920,6 +161884,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1262668240903635114, guid: 700a74221aa8d73419c5487db6cd46ba, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6231156353126965805, guid: 700a74221aa8d73419c5487db6cd46ba, type: 3}
       propertyPath: m_Name
       value: MB_Transformer_Wall_01 (3)
@@ -161345,6 +162313,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 2198233349138847535, guid: 3c1290242e8fa494486c0a25a162355c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2417716214166558098, guid: 3c1290242e8fa494486c0a25a162355c, type: 3}
       propertyPath: m_Name
       value: MB_Pot_Flower_04
@@ -161623,6 +162595,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1728729706094613538, guid: 7874553881935d24680e54c30cde6469, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7210816003912919948, guid: 7874553881935d24680e54c30cde6469, type: 3}
       propertyPath: m_RootOrder
       value: 465
@@ -162671,6 +163647,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 2723227677497177601, guid: 6e281be5c24db6f448946274517314a1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3609851477431543624, guid: 6e281be5c24db6f448946274517314a1, type: 3}
       propertyPath: m_RootOrder
       value: 158
@@ -162911,6 +163891,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1638594313834054650, guid: dcdd0dfa3128b9a40ba81f801ec90ee0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721132028374120189, guid: dcdd0dfa3128b9a40ba81f801ec90ee0, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2159093891066599744, guid: dcdd0dfa3128b9a40ba81f801ec90ee0, type: 3}
@@ -163489,6 +164473,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 2877018079256432082, guid: 0792671899724c14ca3c1dbc45f56b4e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6049314999204837225, guid: 0792671899724c14ca3c1dbc45f56b4e, type: 3}
       propertyPath: m_RootOrder
       value: 179
@@ -163664,6 +164652,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1947845224852339814, guid: 58a5a20f9f21cf343b93fe8e79a0cfb9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7411126566218482350, guid: 58a5a20f9f21cf343b93fe8e79a0cfb9, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Table_04 (4)
@@ -164137,6 +165129,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MB_Sink (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4887735000069172397, guid: 0bcd3db2b3b68e849bb3c33f81d490b8, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bcd3db2b3b68e849bb3c33f81d490b8, type: 3}
 --- !u!4 &1841520086 stripped
@@ -164602,6 +165598,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1947845224852339814, guid: 58a5a20f9f21cf343b93fe8e79a0cfb9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7411126566218482350, guid: 58a5a20f9f21cf343b93fe8e79a0cfb9, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Table_04 (8)
@@ -165089,6 +166089,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (26)
@@ -165198,6 +166202,10 @@ PrefabInstance:
     - target: {fileID: 5561247886330022534, guid: 6427227989d0b1c4daf3d0417cbe2d41, type: 3}
       propertyPath: m_Name
       value: MB_Yellow_Pillar (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732994482427990093, guid: 6427227989d0b1c4daf3d0417cbe2d41, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6427227989d0b1c4daf3d0417cbe2d41, type: 3}
@@ -165369,6 +166377,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1078921222968654095, guid: 623949f92eac78c4a9d9888c89059a09, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2582706318019978603, guid: 623949f92eac78c4a9d9888c89059a09, type: 3}
       propertyPath: m_Name
       value: MB_Toilet (1)
@@ -165978,6 +166990,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (2)
@@ -167650,6 +168666,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 2723227677497177601, guid: 6e281be5c24db6f448946274517314a1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3609851477431543624, guid: 6e281be5c24db6f448946274517314a1, type: 3}
       propertyPath: m_RootOrder
       value: 153
@@ -168561,6 +169581,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MB_Parasol_Pack_01
       objectReference: {fileID: 0}
+    - target: {fileID: 6493250829628816395, guid: ea8787e2ae8f9e442b23cac991ef9dd9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea8787e2ae8f9e442b23cac991ef9dd9, type: 3}
 --- !u!4 &1899940720 stripped
@@ -168649,6 +169673,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1947845224852339814, guid: 58a5a20f9f21cf343b93fe8e79a0cfb9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7411126566218482350, guid: 58a5a20f9f21cf343b93fe8e79a0cfb9, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Table_04 (9)
@@ -170656,6 +171684,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MB_Cafe_Table_02 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5677317927735498133, guid: b0897a49fb443334386e45af04beedb6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0897a49fb443334386e45af04beedb6, type: 3}
 --- !u!4 &1928776083 stripped
@@ -171172,6 +172204,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2094829429349860092, guid: cb6fec2a31ccb9645ba0d3db93b8a4ff, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6287592715791315554, guid: cb6fec2a31ccb9645ba0d3db93b8a4ff, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -176707,6 +177743,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2642130344809571807, guid: 3872000772f0e314188de00175f43656, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2893978312986084400, guid: 3872000772f0e314188de00175f43656, type: 3}
       propertyPath: m_Name
       value: MB_Pot_Flower_10 (3)
@@ -177300,6 +178340,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 2034725587689561886, guid: 6cd2ddacd64f0a0479b551702510a63b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3624670469276475940, guid: 6cd2ddacd64f0a0479b551702510a63b, type: 3}
       propertyPath: m_Name
       value: MB_Urn_04
@@ -178459,6 +179503,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 315177067311472628, guid: 9bc376159f6c9a04d80fb7db0fb22cf9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1586893408885797496, guid: 9bc376159f6c9a04d80fb7db0fb22cf9, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Table_01 (11)
@@ -179976,6 +181024,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1370728463}
     m_Modifications:
+    - target: {fileID: 436099723762234363, guid: 21309ae82e0277c40a4326db79b79ca0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5801558204188662518, guid: 21309ae82e0277c40a4326db79b79ca0, type: 3}
       propertyPath: m_Name
       value: MB_Boxwood_Shrubs_05 (6)
@@ -180160,6 +181212,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MB_Cafe_Chair_05 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8084605603130572587, guid: f4cac23f6d05e154586fd4d1da381215, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4cac23f6d05e154586fd4d1da381215, type: 3}
 --- !u!4 &2022516226 stripped
@@ -180279,6 +181335,10 @@ PrefabInstance:
     - target: {fileID: 2599568407064313227, guid: 17a53a0d7a547b4468c12b3eef36bc6a, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Menu_03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236241718182841384, guid: 17a53a0d7a547b4468c12b3eef36bc6a, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3411570304715401009, guid: 17a53a0d7a547b4468c12b3eef36bc6a, type: 3}
       propertyPath: m_RootOrder
@@ -180408,6 +181468,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1078921222968654095, guid: 623949f92eac78c4a9d9888c89059a09, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2582706318019978603, guid: 623949f92eac78c4a9d9888c89059a09, type: 3}
       propertyPath: m_Name
       value: MB_Toilet (2)
@@ -180590,6 +181654,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4092349372578687246, guid: be0c011ead07fdd4e9c26472e59cb93d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9001551033743354249, guid: be0c011ead07fdd4e9c26472e59cb93d, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -181986,6 +183054,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9001551033743354249, guid: be0c011ead07fdd4e9c26472e59cb93d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be0c011ead07fdd4e9c26472e59cb93d, type: 3}
 --- !u!4 &2042670085 stripped
@@ -182332,6 +183404,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6513875666361640893, guid: 5555aa6fb2d0c3d4199cf0bcaecbd89c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5555aa6fb2d0c3d4199cf0bcaecbd89c, type: 3}
 --- !u!4 &2047776396 stripped
@@ -182620,6 +183696,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4607070499184364777, guid: c421afd66055a37419d80228a894958c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c421afd66055a37419d80228a894958c, type: 3}
 --- !u!4 &2050514028 stripped
@@ -182634,6 +183714,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 967088414792027039, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5055813000421223480, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
       propertyPath: m_RootOrder
       value: 250
@@ -183431,6 +184515,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 2723227677497177601, guid: 6e281be5c24db6f448946274517314a1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3609851477431543624, guid: 6e281be5c24db6f448946274517314a1, type: 3}
       propertyPath: m_RootOrder
       value: 213
@@ -184442,6 +185530,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MB_Yellow_Pillar (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 8732994482427990093, guid: 6427227989d0b1c4daf3d0417cbe2d41, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6427227989d0b1c4daf3d0417cbe2d41, type: 3}
 --- !u!4 &2074093883 stripped
@@ -184456,6 +185548,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1370728463}
     m_Modifications:
+    - target: {fileID: 2149782205606303582, guid: d8fc874fe763c074798676c93a0ff118, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3529158324702742690, guid: d8fc874fe763c074798676c93a0ff118, type: 3}
       propertyPath: m_Name
       value: MB_Boxwood_Shrubs_04
@@ -185131,6 +186227,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 967088414792027039, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5055813000421223480, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
       propertyPath: m_RootOrder
       value: 178
@@ -185484,6 +186584,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1047747540041212084, guid: d86678b48f2017c48804b5bd955ea069, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5807026907788544115, guid: d86678b48f2017c48804b5bd955ea069, type: 3}
       propertyPath: m_RootOrder
       value: 409
@@ -185748,6 +186852,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 2723227677497177601, guid: 6e281be5c24db6f448946274517314a1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3609851477431543624, guid: 6e281be5c24db6f448946274517314a1, type: 3}
       propertyPath: m_RootOrder
       value: 156
@@ -185810,6 +186918,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 1544098037667992956, guid: 77a6911dfbedff64bb784f090ae5e67b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6312164065185856819, guid: 77a6911dfbedff64bb784f090ae5e67b, type: 3}
       propertyPath: m_RootOrder
       value: 354
@@ -185872,6 +186984,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02
@@ -186192,6 +187308,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4607070499184364777, guid: c421afd66055a37419d80228a894958c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c421afd66055a37419d80228a894958c, type: 3}
 --- !u!4 &2096447715 stripped
@@ -186316,6 +187436,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4607070499184364777, guid: c421afd66055a37419d80228a894958c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c421afd66055a37419d80228a894958c, type: 3}
 --- !u!4 &2097855446 stripped
@@ -186404,6 +187528,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (16)
@@ -186466,6 +187594,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 967088414792027039, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5055813000421223480, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
       propertyPath: m_RootOrder
       value: 248
@@ -186695,6 +187827,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 967088414792027039, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5055813000421223480, guid: 1f9fe25409f5ef848bbb0c57e1bad519, type: 3}
       propertyPath: m_RootOrder
       value: 245
@@ -187686,6 +188822,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MB_Parasol_Pack_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6493250829628816395, guid: ea8787e2ae8f9e442b23cac991ef9dd9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea8787e2ae8f9e442b23cac991ef9dd9, type: 3}
 --- !u!4 &2109144125 stripped
@@ -188129,6 +189269,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (24)
@@ -188825,6 +189969,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 3570736523570251200, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8403830005637884423, guid: 5a667ab9dd92669408dbfcc5237d244c, type: 3}
       propertyPath: m_Name
       value: MB_Cafe_Chair_02 (1)
@@ -189101,6 +190249,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 2877018079256432082, guid: 0792671899724c14ca3c1dbc45f56b4e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6049314999204837225, guid: 0792671899724c14ca3c1dbc45f56b4e, type: 3}
       propertyPath: m_RootOrder
       value: 240
@@ -190719,6 +191871,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827352980}
     m_Modifications:
+    - target: {fileID: 2723227677497177601, guid: 6e281be5c24db6f448946274517314a1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3609851477431543624, guid: 6e281be5c24db6f448946274517314a1, type: 3}
       propertyPath: m_RootOrder
       value: 169
