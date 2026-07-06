@@ -177833,27 +177833,27 @@ MonoBehaviour:
   speedDeadzoneDeg: 0.5
   speedZeroDeg: 0
   invertSpeed: 1
-  speedSensitivityDeg: 10
+  speedSensitivityDeg: 1.5
   speedExpo: 0.15
   steerAxis: 0
-  yawDeadzoneDeg: 3
+  yawDeadzoneDeg: 1.5
   steerZeroDeg: 0
   invertSteer: 0
-  yawSensitivityDeg: 55
+  yawSensitivityDeg: 8
   yawExpo: 0.35
-  maxSpeed: 12
+  maxSpeed: 20
   maxTurnAngle: 28
-  speedFilter: 3
+  speedFilter: 10
   turnFilter: 10
   speedSlewPerSec: 12
   turnSlewPerSec: 150
   minSteerScaleAtHighSpeed: 0.55
   steerTightenStartSpeed: 4
   steerTightenEndSpeed: 11
-  smoothing: 2.5
-  idleBrakePerSec: 6
+  smoothing: 7
+  idleBrakePerSec: 15
   minSpeedForLean: 0.3
-  allowTurnWhenStationary: 0
+  allowTurnWhenStationary: 1
   useDebugSpeed: 0
   debugSpeed: 3
   environmentLayers:
@@ -177862,14 +177862,14 @@ MonoBehaviour:
   bumperDistance: 0.5
   recoverDuration: 0.35
   forwardGain: 2
-  backwardGain: 2
+  backwardGain: 0.4
   forwardExpo: 0.15
   backwardExpo: 0.17
   speedDeadzoneDegForward: 0.5
   speedDeadzoneDegBackward: 0.5
-  slewAccelForward: 20
-  slewAccelBackward: 20
-  slewDecel: 28
+  slewAccelForward: 35
+  slewAccelBackward: 6
+  slewDecel: 80
   debugText: {fileID: 0}
 --- !u!114 &1732688783
 MonoBehaviour:

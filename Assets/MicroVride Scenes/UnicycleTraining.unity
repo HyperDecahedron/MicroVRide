@@ -171282,27 +171282,27 @@ MonoBehaviour:
   speedDeadzoneDeg: 1
   speedZeroDeg: 0
   invertSpeed: 0
-  speedSensitivityDeg: 15
+  speedSensitivityDeg: 5
   speedExpo: 0.01
-  steerAxis: 1
-  yawDeadzoneDeg: 5
+  steerAxis: 0
+  yawDeadzoneDeg: 3
   steerZeroDeg: 0
   invertSteer: 1
-  yawSensitivityDeg: 80
+  yawSensitivityDeg: 16
   yawExpo: 0.1
-  maxSpeed: 100
-  maxTurnAngle: 30
-  speedFilter: 3
+  maxSpeed: 20
+  maxTurnAngle: 120
+  speedFilter: 10
   turnFilter: 2
-  speedSlewPerSec: 30
+  speedSlewPerSec: 80
   turnSlewPerSec: 240
   minSteerScaleAtHighSpeed: 0.85
   steerTightenStartSpeed: 5.5
   steerTightenEndSpeed: 12
-  smoothing: 3
+  smoothing: 10
   idleBrakePerSec: 1
   minSpeedForLean: 0.2
-  allowTurnWhenStationary: 0
+  allowTurnWhenStationary: 1
   environmentLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -171313,7 +171313,7 @@ MonoBehaviour:
   debugSpeed: 3
   forwardGain: 1.25
   backwardGain: 1
-  imuFilterStrength: 5
+  imuFilterStrength: 10
 --- !u!114 &1732688783
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -212054,6 +212054,7 @@ GameObject:
   - component: {fileID: 3580121551923981314}
   - component: {fileID: 4956207148379474297}
   - component: {fileID: 7103939508862259541}
+  - component: {fileID: 7103939508862259542}
   m_Layer: 0
   m_Name: XR Origin (XR Rig)
   m_TagString: Untagged
@@ -217993,6 +217994,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ActionAssets: []
+--- !u!114 &7103939508862259542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890370658628715423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4c7722fe8eb3134ba22875b82c64a40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7133186106539712535
 GameObject:
   m_ObjectHideFlags: 0
