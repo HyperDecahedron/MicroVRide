@@ -172590,6 +172590,10 @@ PrefabInstance:
       propertyPath: expectedTotalCoins
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 7823599250745461331, guid: 15f14c5258cb345ddaf6de6c17e3efef, type: 3}
+      propertyPath: finishMenuDuration
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7823599251427382980, guid: 15f14c5258cb345ddaf6de6c17e3efef, type: 3}
       propertyPath: m_Name
       value: EndCanvas

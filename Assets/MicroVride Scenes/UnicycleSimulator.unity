@@ -193140,7 +193140,7 @@ MonoBehaviour:
   countdownText: {fileID: 1803531140}
   autoFinishWhenAllCollected: 1
   expectedTotalCoins: 20
-  finishMenuDuration: 10
+  finishMenuDuration: 3
   currentVehicle: 2
 --- !u!4 &7823599251019675583
 Transform:
