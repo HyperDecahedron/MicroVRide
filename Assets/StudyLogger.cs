@@ -170,7 +170,13 @@ namespace Study
 
         public void FinishRide()
         {
-            if (_ride == null) return;
+            if (_ride == null)
+            {
+                Debug.Log("Ride is null");
+                return;
+            }
+
+            Debug.Log("Total coins collected: " + _ride.totalCoinsCollected);
 
             _ride.endTimeUtc = DateTime.UtcNow;
             _ride.durationSec = (float)(_ride.endTimeUtc.Value - _ride.startTimeUtc).TotalSeconds;
