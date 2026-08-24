@@ -16,7 +16,7 @@ public class FanController : MonoBehaviour
     public bool debug2 = false;
 
     private float max_velocity = 3f;
-    private float send_interval = 0.2f;
+    private float send_interval = 0.1f;
     private int fan_offset = 30;
     private float angular_velocity_th = 4.5f;
 
