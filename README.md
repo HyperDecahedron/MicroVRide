@@ -22,19 +22,6 @@ The simulator also integrates physical sensors and actuators through **ESP32/Ard
 
 ---
 
-## Project Overview
-
-The simulator is designed around a VR experimental workflow:
-
-1. Start the application.
-2. Immediatly after starting the app, calibrate the physical foot-pressure sensors.
-3. Select a cybersickness-mitigation condition.
-4. Select one of the four vehicles.
-5. Complete the corresponding training/simulation experience by reaching the finish line.
-6. Collect movement, coin/pickup, and session telemetry. Saved automatically when reaching the finish line.
-
----
-
 ## Vehicles
 
 The vehicles are already defined in the project, but they can be easily customized by their correspondent component in the inspector. 
@@ -46,21 +33,6 @@ Controlled primarily using:
 * IMU data for steering.
 * Thumb-throttle data for acceleration.
 
-The scooter controller includes configurable:
-
-* Maximum speed
-* Maximum steering angle
-* Steering deadzone
-* Steering sensitivity
-* Steering inversion
-* Throttle deadzone
-* Expo curves
-* Filtering
-* Slew-rate limiting
-* Speed-dependent steering
-* Collision recovery
-* Debug speed override
-
 The repository also contains an optional keyboard-debug mode using **W/A/S/D**.
 
 ### Segway
@@ -71,17 +43,6 @@ The Segway uses a combination of:
 * IMU yaw for steering.
 
 Forward/backward intent is derived from the difference between normalized toe and heel pressure.
-
-The controller includes:
-
-* Forward/backward deadzones
-* Hysteresis
-* Speed shaping
-* Steering sensitivity
-* Steering filtering
-* Speed-dependent steering
-* Collision detection and recovery
-* Telemetry logging
 
 ### Electric Unicycle
 
