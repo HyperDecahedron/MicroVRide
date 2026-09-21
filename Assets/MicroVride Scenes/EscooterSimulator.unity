@@ -8788,6 +8788,9 @@ MonoBehaviour:
   keyboardSpeedMultiplier: 1
   keyboardTurnMultiplier: 1
   throttleActive: 0
+  measureUpdateLatency: 1
+  latencyMeasurementDuration: 10
+  latencyFilePrefix: ESCOOTER_SENSOR_LATENCY
 --- !u!114 &99643792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103295,6 +103298,9 @@ MonoBehaviour:
   keyboardSpeedMultiplier: 1
   keyboardTurnMultiplier: 1
   throttleActive: 0
+  measureUpdateLatency: 1
+  latencyMeasurementDuration: 10
+  latencyFilePrefix: ESCOOTER_SENSOR_LATENCY
 --- !u!114 &1121598095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -154485,6 +154491,9 @@ MonoBehaviour:
   keyboardSpeedMultiplier: 1
   keyboardTurnMultiplier: 1
   throttleActive: 0
+  measureUpdateLatency: 1
+  latencyMeasurementDuration: 10
+  latencyFilePrefix: ESCOOTER_SENSOR_LATENCY
 --- !u!114 &1732688774
 MonoBehaviour:
   m_ObjectHideFlags: 0
